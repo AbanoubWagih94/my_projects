@@ -1,0 +1,489 @@
+/*@import url('https://fonts.googleapis.com/css?family=Dancing+Script');*/
+@import url('Forte.ttf');
+.list-ele:hover, .list-ele:hover:focus, .list-ele:active {
+    transition: color 1s;
+    color: #aaa;
+}
+
+/*Content*/
+.pointer {
+    margin-left: 1%;
+}
+.container-fluid,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+    clear: both;
+}
+
+.cov {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#services {
+    min-height: 400px;
+    background-color: white;
+    padding: 10px;
+}
+
+.se {
+    width: 115%;
+    height: 300px;
+    border: 1px solid;
+    background-color: rgba(12, 60, 96, 1);
+}
+
+.se h2 {
+    letter-spacing: 0.05em;
+    color: #D1E0EB;
+}
+
+.se p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#our_work {
+    min-height: 700px;
+    width: 100%;
+    background-color: #D1E0EB;
+    padding: 10px;
+}
+
+#contact {
+    min-height: 600px;
+    width: 100%;
+    background-color: #D1E0EB;
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+
+#find {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(12, 60, 96, 1);
+    padding: 10px;
+}
+
+#find .fform{
+    position: relative;
+    top:25px;
+}
+#find h2{
+    position: relative;
+    top:30px;
+}
+
+#fform,
+#about {
+
+    border-radius: 5px;
+    width: 70%;
+    min-height: 60%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    text-align: center;
+    color: rgba(12, 60, 96, 1);
+    font-size: 20px;
+}
+
+#fform {
+    color: white;
+}
+
+hr {
+    width: 10%;
+    display: block;
+}
+
+.row {
+    width: 80%;
+}
+
+.row div {
+    padding: 10px;
+}
+
+.elements {
+    width: 80%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.form-group {
+    width: 80%;
+}
+
+#nav a:hover, #nav a:focus, #nav a:active {
+    text-decoration: none;
+    color: #D1E0EB;
+    transition: color 1s;
+}
+
+#cover .slogan {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+.load{
+    position: fixed;
+    top:75px;
+    left:0;
+    width: 100%;
+    height: 800px;
+    background-color: #FFFFFF;
+    z-index: 100000000;
+}
+.pre-loader{
+    position: fixed;
+    top:0px;
+    left:0;
+    width: 100%;
+    height: 800px;
+    background-color: #FFFFFF;
+    z-index: 1000000000;
+}
+@media screen and (max-width: 775px) {
+    /*header*/
+    #small-nav {
+        width: 100%;
+        background-color: #2b669a;
+        padding: 0 0 20px 0 ;
+        height: 300px;
+    }
+    span.pull-left{
+        display: none;
+    }
+    .list-ele {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 15px 0 10px 0;
+    }
+    #small-list{
+        position: relative;
+        top: 2px;
+        right: 10px;
+        z-index: 500;
+        font-size: 1.5em;
+        background-color: #2aabd2;
+        padding: 10px;
+        margin-bottom: 35px;
+        border-radius: 10px;
+        color: white;
+        height: auto;
+    }
+    #small-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 280px;
+        overflow: hidden;
+        z-index: 1000;
+        transition: all 0.5s ease-in;
+        overflow: hidden;
+    }
+    #header{
+        display: none;
+    }
+    #cover {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background-attachment: scroll;
+        /*background-image: url("../images/bg.jpg");*/
+    }
+    #cover .slogan h5{
+        line-height: 1em;
+        font-size: 10px;
+        color: #39729B;
+    }
+    #cover .slogan h1{
+        line-height: 1em;
+        font-size:30px;
+        font-family:raleway,sans-serif;
+        color: #0C3C60;
+    }
+
+
+}
+
+@media screen and (min-width: 775px) {
+    /*header*/
+    #nav {
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        background-color: rgba(12, 60, 96, 1);
+        z-index: 1000;
+        padding: 10px 0 10px 0;
+        right: 0;
+        
+    }
+    #close{
+        display: none;
+    }
+    #nav div.cont {
+        height: 100%;
+        width: 78%;
+        position: absolute;
+        right: 15%;
+        color:white;
+        vertical-align: center;
+
+    }
+    #nav div.cont span{
+        font-size: 1.5em;
+        line-height: 1.8em;
+        vertical-align: center;
+    }
+    #header {
+        position: relative;
+        width: 100%;
+        height: 85px;
+        background-color: rgba(12, 60, 96, 1);
+    }
+
+    .list-ele {
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        width: 80px;
+        padding: 15px 0 15px 0;
+        float: right;
+    }
+
+    #cover {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        background-attachment: fixed;
+        /*background-image: url("../images/bg.jpg");*/
+    }
+    #cover .slogan h5{
+        line-height: 1.5em;
+        font-size: 16px;
+        color: #39729B;
+    }
+    #cover .slogan h1{
+        line-height: 1.5em;
+        font-size:60px;
+        font-family:raleway,sans-serif;
+        color: #0C3C60;
+    }
+    #small-list {
+        display: none;
+    }
+
+    .project-container img {
+        float: left;
+        padding: 10px;
+    }
+}
+
+footer {
+    width: 100%;
+    min-height: 20%;
+    background-color: rgba(12, 60, 96, 1);
+    position: relative;
+}
+
+footer pre.footer {
+    background-color: rgba(12, 60, 96, 1);
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer nav {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+footer nav a {
+    transition: opacity 1.5s;
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.4;
+    font-size: 30px;
+}
+
+footer nav a:hover {
+    color: white;
+    opacity: 1;
+}
+
+/* About us & projects*/
+
+.project-container {
+    width: 80%;
+    position: relative;
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+}
+
+.p {
+    color: #39729B;
+    width: 100%;
+    font-size: 20px;
+}
+
+.title {
+    color: #6EA4CA;
+}
+
+#linep {
+    width: 6%;
+    height: 1%;
+    background-color: #6EA4CA;
+    position: absolute;
+    left: 47%;
+}
+
+#A {
+    background-color: white;
+    /*margin: 0 10px 0 0px;*/
+}
+
+/*logo*/
+#logo #fore-logo {
+    width: 80px;
+    height: 80px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+    transition: transform 1s;
+}
+
+#logo #back-logo {
+    width: 80px;
+    height: 80px;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 1s;
+}
+
+#logo #fore-logo img, #logo #back-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    top: 5px;
+    left: 5px;
+    z-index: 6000;
+    position: fixed;
+}
+
+.container-fluid.ng-enter, .fading-form.ng-enter {
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.container-fluid.ng-enter-active, .fading-form.ng-enter-active {
+    opacity: 1;
+}
+
+.active {
+    color: #D1E0EB;
+}
+.pointer{
+    cursor: pointer;
+}
+.ar{
+    direction: rtl;
+}
+/*login form*/
+
+#login-form-wrapper{
+    width:300px;
+    height: auto;
+    margin: auto auto;
+    position: relative;
+    top:30px;
+    background-color: #2b669a;
+    padding: 10px 10px 50px 10px;
+    border-radius: 7px;
+}
+#login-form-wrapper #border{
+    position: absolute;
+    left: 4%;
+    background-color: white;
+    width:46%;
+    height: 3px;
+    transition: all 0.5s;
+}
+#login-form-wrapper form{
+    position: relative;
+    top:25px;
+}
+#login-form-wrapper form .form-group label{
+    color:white;
+}
+#login-form-wrapper #border::after{
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    border-color:white transparent transparent transparent;
+    left: calc(50% - 10px);
+    top:3px;
+}
+#login-form{
+    width: 100%;
+    margin: auto;
+    color:white;
+}
+#login-form a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+.hidden-info{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    overflow: auto;
+    z-index: 10000;
+}
+.close span , .close{
+    color: gray;
+    opacity: 0.6;
+    font-size: 2.1em;
+}
+.ar-link{
+    float:right;
+}

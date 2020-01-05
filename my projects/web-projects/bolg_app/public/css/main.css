@@ -1,0 +1,74 @@
+/**** Admin Panel ****/
+
+#admin-wrapper {
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+#sidebar {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#sidebar-wrapper {
+    position: relative;
+    max-height: none;
+    min-height: 100%;
+    width: 260px;
+    box-shadow: inset -1px 0px 0px 0px #DDDDDD;
+}
+
+#main-panel {
+    background-color: #f4f3ef;
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: calc(100% - 260px);
+    min-height: 100%;
+}
+
+
+
+#sidebar ul{
+    list-style: none;
+}
+
+#sidebar ul .nav-item {
+    display:inline-block;
+    border-bottom: 1px solid #f4f3ef;
+}
+
+
+#sidebar ul .nav-item span , #sidebar ul .nav-item li span{
+    float:right;
+}
+
+/*Web Site*/
+#wrapper {
+    margin-top: 100px;
+}
+
+#wrapper ul {
+    list-style: none;
+}
+
+#wrapper #comment a{
+    float: right;
+}
+
+#wrapper .disabled {
+    pointer-events:none;
+    opacity:0.6;         
+}
+
+footer{
+    padding: 50px 0 50px 0;
+    color: white;
+    text-align: center;
+}
+
+

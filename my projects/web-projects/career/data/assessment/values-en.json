@@ -1,0 +1,166 @@
+[
+	{
+		"question": "attain mastery of a field, self-advancement, and growth.",
+		"category": "ACHIEVEMENT"
+	},
+	{
+		"question": "work in a job in which you make rapid career advancement.",
+		"category": "ADVANCEMENT"
+	},
+	{
+		"question": "work in a job that requires taking risks.",
+		"category": "ADVENTURE"
+	},
+	{
+		"question": "devotion to the welfare of or service to others; satisfaction attained through pursuit of a greater good.",
+		"category": "ALTRUISM"
+	},
+	{
+		"question": "study or appreciation of the beauty of things, ideas, etc.",
+		"category": "AESTHETICS"
+	},
+	{
+		"question": "work in a job in which you control the activities of others.",
+		"category": "AUTHORITY AND POWER"
+	},
+	{
+		"question": "handle difficult or complex work.",
+		"category": "CHALLENGE"
+	},
+	{
+		"question": "work in a job in which you have a high degree of expertise or ability.",
+		"category": "COMPETENCE"
+	},
+	{
+		"question": ": work in a job in which you compete with others.",
+		"category": "COMPETITION"
+	},
+	{
+		"question": "build relationships with colleagues that promotes a sense of belonging.",
+		"category": "CO-WORKERS"
+	},
+	{
+		"question": ": work in a job in which you use your imagination to find new ways to do or say something.",
+		"category": "CREATIVITY AND SELF-EXPRESSION"
+	},
+	{
+		"question": ": work in a job where you choose the work hours.",
+		"category": "FLEXIBLE WORK SCHEDULE"
+	},
+	{
+		"question": "work in a job in which you provide direct services to individuals with problems.",
+		"category": "HELP OTHERS"
+	},
+	{
+		"question": "work in a job where you earn a large amount of money and can afford the luxuries of life.",
+		"category": "HIGH SALARY"
+	},
+	{
+		"question": "work in a job in which you decide for yourself what work to do and how to do it.",
+		"category": "INDEPENDENCE"
+	},
+	{
+		"question": "work in a job in which you influence the opinions or decisions of others.",
+		"category": "INFLUENCE OTHERS"
+	},
+	{
+		"question": "work primarily indoors.",
+		"category": "INSIDE WORK"
+	},
+	{
+		"question": "work in a job requiring a considerable amount of thought and reasoning.",
+		"category": "INTELLECTUAL STIMULATION"
+	},
+	{
+		"question": "work with other employees and colleagues.",
+		"category": "INTERPERSONAL RELATIONS"
+	},
+	{
+		"question": "work in a job in which you direct, manage, or supervise the activities of others.",
+		"category": "LEADERSHIP"
+	},
+	{
+		"question": "live in a place conducive to your lifestyle.",
+		"category": "LOCATION"
+	},
+	{
+		"question": "work in a relatively stress free job.",
+		"category": "LOW PRESSURE"
+	},
+	{
+		"question": "behave in a way consistent with ethical or moral standards.",
+		"category": "MORAL VALUES"
+	},
+	{
+		"question": "work primarily outdoors.",
+		"category": "OUTSIDE WORK"
+	},
+	{
+		"question": "work in a physically demanding job that you find rewarding.",
+		"category": "PHYSICAL WORK"
+	},
+	{
+		"question": "work in a job affording you status and respect in the community.",
+		"category": "PRESTIGE"
+	},
+	{
+		"question": "work in a job in which you have daily dealings with the public.",
+		"category": "PUBLIC CONTACT"
+	},
+	{
+		"question": "work in a job in which you gain public notice.",
+		"category": "RECOGNITION"
+	},
+	{
+		"question": "work in the frontiers of human, science, or technological research or new product development.",
+		"category": "KNOWLEDGE"
+	},
+	{
+		"question": "work relatively free from turnover with reasonable financial rewards.",
+		"category": "SECURITY"
+	},
+	{
+		"question": "accomplish something having meaning for others; work for society or another person’s benefit.",
+		"category": "SOCIAL WELFARE"
+	},
+	{
+		"question": "work that is largely predictable, routine, and not likely to change much over time.",
+		"category": "STABILITY"
+	},
+	{
+		"question": "work done under a fair, agreeable, and professionally nurturing boss.",
+		"category": "SUPERVISORY RELATIONS"
+	},
+	{
+		"question": "work in a job in which you take frequent trips.",
+		"category": "TRAVEL"
+	},
+	{
+		"question": "work in a job in which your responsibilities and projects change frequently.",
+		"category": "VARIETY"
+	},
+	{
+		"question": "work in a job where you complete projects or assignments by yourself or with limited contact with others.",
+		"category": "WORK ALONE"
+	},
+	{
+		"question": "",
+		"category": "WORK WITH CHILDREN"
+	},
+	{
+		"question": "work in a job in which you use your hands or hand tools.",
+		"category": "WORK WITH HANDS"
+	},
+	{
+		"question": "work in a job in which you use machines or equipment.",
+		"category": "WORK WITH MACHINES OR EQUIPMENT"
+	},
+	{
+		"question": "work in a job in which you use mathematics or statistics.",
+		"category": "WORK WITH NUMBERS"
+	},
+	{
+		"question": "work in a job where there is a high pace of activity; work must be done quickly.",
+		"category": "WORK UNDER PRESSURE"
+	}
+]

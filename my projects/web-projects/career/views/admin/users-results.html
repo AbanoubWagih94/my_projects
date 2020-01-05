@@ -1,0 +1,45 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div class="container-fluid">
+    <span style="color:deepskyblue">Filter Data as:</span>
+        <input type="radio" name="filter" ng-click="q={};q.seen = 1">Seen
+        <input type="radio" name="filter" ng-click="q={};q.seen = 0">Not Seen
+        <input type="radio" name="filter" ng-click="q={};q.reserved = 1">Reserved
+        <input type="radio" name="filter" ng-click="q={}" checked="true">All
+    <div class="search-box-wrapper">
+        <div class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" ng-model="q.name" ng-keyup="setFilter(q.name)" placeholder="Search by name">
+        </div>
+    </div>
+    <div class="alert alert-success fade in" ng-show="success">
+        <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="failed">
+        <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="getFailed">
+        <a class="close" aria-label="close" ng-click="getFailed = false">&times;</a>
+        <strong>Error!</strong> Getting data failed!
+    </div>
+
+    <div class="alert alert-info fade in" ng-show="operationWait">
+        {{siteStatic[lang].wait}}
+    </div>
+
+    <pre class="alert alert-info" ng-show="!data.length">Ther is no data right now!</pre>
+    <div class="proj-title " ng-repeat="d in data | limitTo:variance:start | filter:q">
+        <span class="pull-left text-left">{{d.name}}</span>
+        <input type="button" class="pull-right btn btn-success fa" value="&#xf06e; Mark as seen" ng-click="markSeen(this.d.id, d)">
+        <a href ="#/usersResults/{{d.id}}" class="pull-right btn btn-primary fa">&#xf0ce; Full Results</a>
+    </div>
+</div>
+ <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>

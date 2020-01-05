@@ -1,0 +1,18 @@
+<div class="container-fluid" id="A">
+    <h1 class="center-text title">{{siteStatic[lang].services | uppercase}}</h1>
+    <div id="linep"></div><br>
+    <div class="project-container center-block"><p class="center-text p">{{data.description}}</p>
+    </div>
+
+
+    <div class="row center-block">
+        <div class="col-lg-4 col-md-4 col-sm-4 center-text" ng-repeat="d in data.data">
+            <img ng-src="{{imgUrl+d.img}}" class="img-r esponsive center-block" width="300" height="300">
+            <h3 class="center-text">{{d.title}}</h3>
+            <p></p>
+            <button class=".btn btn-info btn-lg" ng-click="sessionChecker()">{{siteStatic[lang].start}}</button> <!--localStorage.clear()-->
+        </div>
+    </div>
+    <div></div>
+    <br><br><hr>
+</div>

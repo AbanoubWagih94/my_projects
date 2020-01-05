@@ -1,0 +1,962 @@
+[
+  {
+    "question": "Are You Practical",
+    "category": "R"
+  },
+  {
+    "question": "Are You Athletic",
+    "category": "R"
+  },
+  {
+    "question": "Are You Straightforward",
+    "category": "R"
+  },
+  {
+    "question": "Are You Action-oriented",
+    "category": "R"
+  },
+  {
+    "question": "Are You Logical",
+    "category": "R"
+  },
+  {
+    "question": "Are You Proficient",
+    "category": "R"
+  },
+  {
+    "question": "Are You Goal-oriented",
+    "category": "R"
+  },
+  {
+    "question": "Are You Reliable",
+    "category": "R"
+  },
+  {
+    "question": "Are You Persistent",
+    "category": "R"
+  },
+  {
+    "question": "Are You Traditional",
+    "category": "R"
+  },
+  {
+    "question": "Can You Think abstractly",
+    "category": "R"
+  },
+  {
+    "question": "Can You Interpret formulas",
+    "category": "R"
+  },
+  {
+    "question": "Can You Using the scientific method",
+    "category": "R"
+  },
+  {
+    "question": "Can You Conduct a thorough piece of research",
+    "category": "R"
+  },
+  {
+    "question": "Can You Analyze data",
+    "category": "R"
+  },
+  {
+    "question": "Can You Solve math problems",
+    "category": "R"
+  },
+  {
+    "question": "Can You Generate innovative ideas",
+    "category": "R"
+  },
+  {
+    "question": "Can You Design things",
+    "category": "R"
+  },
+  {
+    "question": "Can You Use a microscope",
+    "category": "R"
+  },
+  {
+    "question": "Can You Understand physics",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Thinking vs. doing",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Working alone",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Researching",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Solving complex problems",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Learning",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Exploring",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Creating new things",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Science fiction, mysteries",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Evaluating",
+    "category": "R"
+  },
+  {
+    "question": "Do You Like : Setting your own pace",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Intellect",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Precision",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Autonomy",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Setting your own pace",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Technical expertise",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Thinking vs. doing",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Creating",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Work alone",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Science",
+    "category": "R"
+  },
+  {
+    "question": "Do You Value Insight",
+    "category": "R"
+  },
+  {
+    "question": "Are You Creative",
+    "category": "A"
+  },
+  {
+    "question": "Are You Communicative",
+    "category": "A"
+  },
+  {
+    "question": "Are You Unique",
+    "category": "A"
+  },
+  {
+    "question": "Are You Independent",
+    "category": "A"
+  },
+  {
+    "question": "Are You Unsystematic",
+    "category": "A"
+  },
+  {
+    "question": "Are You Unconventional",
+    "category": "A"
+  },
+  {
+    "question": "Are You Expressive",
+    "category": "A"
+  },
+  {
+    "question": "Are You Intuitive",
+    "category": "A"
+  },
+  {
+    "question": "Are You Imaginative",
+    "category": "A"
+  },
+  {
+    "question": "Are You Innovative",
+    "category": "A"
+  },
+  {
+    "question": "Can You Comunicate well",
+    "category": "A"
+  },
+  {
+    "question": "Can You Draw, sketch or paint",
+    "category": "A"
+  },
+  {
+    "question": "Can You Play a musical instrument",
+    "category": "A"
+  },
+  {
+    "question": "Can You Write poetry or music",
+    "category": "A"
+  },
+  {
+    "question": "Can You Express yourself creatively",
+    "category": "A"
+  },
+  {
+    "question": "Can You Improvise when necessary",
+    "category": "A"
+  },
+  {
+    "question": "Can You Generate creative ideas",
+    "category": "A"
+  },
+  {
+    "question": "Can You Design things",
+    "category": "A"
+  },
+  {
+    "question": "Can You Act or dance",
+    "category": "A"
+  },
+  {
+    "question": "Can You Think of innovative ideas",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Attending concerts",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Visiting art exhibits",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Working on crafts",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Singing",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Taking photographs",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Attending movies or plays",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Working independently",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Listening to music",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like Reading poetry or plays",
+    "category": "A"
+  },
+  {
+    "question": "Do You Like All things artistic",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Creativity",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Being unconventional",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Beauty",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Expressing yourself creatively",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Self-expression",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Diversity",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Objectivity",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Independence",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Public recognition",
+    "category": "A"
+  },
+  {
+    "question": "Do You Value Originality",
+    "category": "A"
+  },
+  {
+    "question": "Are You Analytical",
+    "category": "I"
+  },
+  {
+    "question": "Are You Methodical",
+    "category": "I"
+  },
+  {
+    "question": "Are You Intellectual",
+    "category": "I"
+  },
+  {
+    "question": "Are You Independent",
+    "category": "I"
+  },
+  {
+    "question": "Are You Inquisitive",
+    "category": "I"
+  },
+  {
+    "question": "Are You Forward-thinking",
+    "category": "I"
+  },
+  {
+    "question": "Are You Insightful",
+    "category": "I"
+  },
+  {
+    "question": "Are You Observant",
+    "category": "I"
+  },
+  {
+    "question": "Are You Precise",
+    "category": "I"
+  },
+  {
+    "question": "Are You Scientific",
+    "category": "I"
+  },
+  {
+    "question": "Can You Think abstractly",
+    "category": "I"
+  },
+  {
+    "question": "Can You Interpret formulas",
+    "category": "I"
+  },
+  {
+    "question": "Can You Using the scientific method",
+    "category": "I"
+  },
+  {
+    "question": "Can You Conduct a thorough piece of research",
+    "category": "I"
+  },
+  {
+    "question": "Can You Analyze data",
+    "category": "I"
+  },
+  {
+    "question": "Can You Solve math problems",
+    "category": "I"
+  },
+  {
+    "question": "Can You Generate innovative ideas",
+    "category": "I"
+  },
+  {
+    "question": "Can You Design things",
+    "category": "I"
+  },
+  {
+    "question": "Can You Use a microscope",
+    "category": "I"
+  },
+  {
+    "question": "Can You Understand physics",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Thinking vs. doing",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Working alone",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Researching",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Solving complex problems",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Learning",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Exploring",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Creating new things",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Science fiction, mysteries",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Evaluating",
+    "category": "I"
+  },
+  {
+    "question": "Do You Like Setting your own pace",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Intellect",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Precision",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Autonomy",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Setting your own pace",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Technical expertise",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Thinking vs. doing",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Creating",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Work alone",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Science",
+    "category": "I"
+  },
+  {
+    "question": "Do You Value Insight",
+    "category": "I"
+  },
+  {
+    "question": "Are You Friendly",
+    "category": "S"
+  },
+  {
+    "question": "Are You Patient",
+    "category": "S"
+  },
+  {
+    "question": "Are You Warm",
+    "category": "S"
+  },
+  {
+    "question": "Are You Helpful",
+    "category": "S"
+  },
+  {
+    "question": "Are You Kind",
+    "category": "S"
+  },
+  {
+    "question": "Are You Responsible",
+    "category": "S"
+  },
+  {
+    "question": "Are You Empathetic",
+    "category": "S"
+  },
+  {
+    "question": "Are You Co-operative",
+    "category": "S"
+  },
+  {
+    "question": "Are You Influential",
+    "category": "S"
+  },
+  {
+    "question": "Are You Understanding",
+    "category": "S"
+  },
+  {
+    "question": "Can You communicate with others",
+    "category": "S"
+  },
+  {
+    "question": "Can You Facilitate a group discussion",
+    "category": "S"
+  },
+  {
+    "question": "Can You Lead others",
+    "category": "S"
+  },
+  {
+    "question": "Can You Teach/train others",
+    "category": "S"
+  },
+  {
+    "question": "Can You Mediate conflicts",
+    "category": "S"
+  },
+  {
+    "question": "Can You Listen to others",
+    "category": "S"
+  },
+  {
+    "question": "Can You Work with people",
+    "category": "S"
+  },
+  {
+    "question": "Can You Work on a team",
+    "category": "S"
+  },
+  {
+    "question": "Can You Encourage others",
+    "category": "S"
+  },
+  {
+    "question": "Can You Explain things well to others",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Teaching",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Leading",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Working on teams",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Helping others",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Social activities",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Communicating",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Volunteering",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Education",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Impacting society",
+    "category": "S"
+  },
+  {
+    "question": "Do You Like Expressing feelings",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Making a difference",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Social interaction",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Growth of others",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Working on teams",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Expressing emotions",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Impacting society",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Impacting individuals",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Teaching others",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Motivating others",
+    "category": "S"
+  },
+  {
+    "question": "Do You Value Helping others",
+    "category": "S"
+  },
+  {
+    "question": "Are You Agreeable",
+    "category": "E"
+  },
+  {
+    "question": "Are You Energetic",
+    "category": "E"
+  },
+  {
+    "question": "Are You Optimistic",
+    "category": "E"
+  },
+  {
+    "question": "Are You Social",
+    "category": "E"
+  },
+  {
+    "question": "Are You Extroverted",
+    "category": "E"
+  },
+  {
+    "question": "Are You Talkative",
+    "category": "E"
+  },
+  {
+    "question": "Are You Ambitious",
+    "category": "E"
+  },
+  {
+    "question": "Are You Confident",
+    "category": "E"
+  },
+  {
+    "question": "Are You Persuasive",
+    "category": "E"
+  },
+  {
+    "question": "Are You Assertive",
+    "category": "E"
+  },
+  {
+    "question": "Can You Speak in public",
+    "category": "E"
+  },
+  {
+    "question": "Can You Lead a group",
+    "category": "E"
+  },
+  {
+    "question": "Can You Initiate projects",
+    "category": "E"
+  },
+  {
+    "question": "Can You Organize activities or events",
+    "category": "E"
+  },
+  {
+    "question": "Can You Manage other people",
+    "category": "E"
+  },
+  {
+    "question": "Can You Influence others",
+    "category": "E"
+  },
+  {
+    "question": "Can You Be convincing",
+    "category": "E"
+  },
+  {
+    "question": "Can You Work well with others",
+    "category": "E"
+  },
+  {
+    "question": "Can You Negotiate a deal",
+    "category": "E"
+  },
+  {
+    "question": "Can You Sell to others",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Selling things",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Making decisions",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Meeting important people",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Politics",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Leadership opportunities",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Competition",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Negotiating",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Facing challenges",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Adventure",
+    "category": "E"
+  },
+  {
+    "question": "Do You Like Taking charge",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Leadership",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Competition",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Success",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Status",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Recognition",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Expressing opinions",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Making money",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Power",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Persuasiveness",
+    "category": "E"
+  },
+  {
+    "question": "Do You Value Assertiveness",
+    "category": "E"
+  },
+  {
+    "question": "Are You Detail-oriented",
+    "category": "C"
+  },
+  {
+    "question": "Are You Organized",
+    "category": "C"
+  },
+  {
+    "question": "Are You Systematic",
+    "category": "C"
+  },
+  {
+    "question": "Are You Practical",
+    "category": "C"
+  },
+  {
+    "question": "Are You Efficient",
+    "category": "C"
+  },
+  {
+    "question": "Are You Conscientious",
+    "category": "C"
+  },
+  {
+    "question": "Are You Orderly",
+    "category": "C"
+  },
+  {
+    "question": "Are You Accurate",
+    "category": "C"
+  },
+  {
+    "question": "Are You Disciplined",
+    "category": "C"
+  },
+  {
+    "question": "Are You Persistent",
+    "category": "C"
+  },
+  {
+    "question": "Can You Pay attention to detail",
+    "category": "C"
+  },
+  {
+    "question": "Can You Follow orders",
+    "category": "C"
+  },
+  {
+    "question": "Can You Work a computer",
+    "category": "C"
+  },
+  {
+    "question": "Can You Work with numbers",
+    "category": "C"
+  },
+  {
+    "question": "Can You Keep accurate records/files",
+    "category": "C"
+  },
+  {
+    "question": "Can You Work efficiently",
+    "category": "C"
+  },
+  {
+    "question": "Can You Work in a clerical setting",
+    "category": "C"
+  },
+  {
+    "question": "Can You Write effective business letters",
+    "category": "C"
+  },
+  {
+    "question": "Can You Enter data accurately",
+    "category": "C"
+  },
+  {
+    "question": "Can You Follow clearly Defined procedures",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Handling and Controlling money",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Numbers",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Working with computers",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Concrete tasks",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Keeping accurate records/files",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Collecting things",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Organizing data",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Math, accounting",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Working in an office",
+    "category": "C"
+  },
+  {
+    "question": "Do You Like Generating written communication",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Discipline",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Business success",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Clear standards",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Routine",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Practical things",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Order",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Accuracy",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Organization",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Detail",
+    "category": "C"
+  },
+  {
+    "question": "Do You Value Status",
+    "category": "C"
+  }
+]

@@ -1,0 +1,26 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div style="padding: 10px !important">
+<p style="font-size:20px; font-weight:bold; background-color:deepskyblue; border-radius:10px;padding:10px">
+    {{pageStatic[lang].intro}}
+</p>
+<div ng-repeat="d in data" style="border-bottom: 1px solid deepskyblue;padding: 10px 0 10px 0;">
+         
+         <table> 
+           <tr style="font-size:20px; width:80%;">
+             <td style="width:30px;"><b>{{$index+1}}	<b style="color:deepskyblue;">|	</b></td>
+             <td><b>{{d.question}}</b></td>
+           </tr>
+         </table>
+         <div style="padding: 20px;">
+            <input type="radio" name="{{d.question}}" ng-value="d.answers[0].value" ng-model="results[d.category][$index]">  <b>{{d.answers[0].answer}}</b> 
+            <br>   
+            <input type="radio" name="{{d.question}}" ng-value="d.answers[1].value" ng-model="results[d.category][$index]">  <b>{{d.answers[1].answer}}</b> 
+         </div>   
+    </div>
+<div class="alert alert-danger fade in" ng-show="failed">
+    <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+    <strong>Error!</strong> Data hasn't been saved!
+</div><br>
+{{countTrue(results.EI)+countTrue(results.SN)+countTrue(results.TF)+countTrue(results.JP)}}
+<input type="button" class="btn btn-primary fa" value="&#xf00c; {{siteStatic[lang].submit}}" ng-click="calculateResults()" ng-disabled="countTrue(results.EI)+countTrue(results.SN)+countTrue(results.TF)+countTrue(results.JP) < data.length">
+</div>

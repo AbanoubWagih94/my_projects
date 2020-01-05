@@ -1,0 +1,95 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+
+<div id="live-lecture-edit">
+<h3 style="padding: 10px;color:#2b669a">Live Lectures Edit:</h3>
+    <div class="alert alert-success fade in" ng-show="liveOk">
+        <a class="close" aria-label="close" ng-click="liveOk = !liveOk">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="liveFailed">
+        <a class="close" aria-label="close" ng-click="liveFailed = !liveFailed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+    <div class="form-group">
+        <label for="time">Lecture Time:</label>
+        <input type="datetime-local" class="form-control" id="time" ng-model="liveLecture.dateTime">
+    </div>
+    <div class="form-group">
+        <label for="link">Lecture Link:</label>
+        <input class="form-control" id="link" placeholder="Lecture Link" ng-model="liveLecture.link">
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" ng-model="liveLecture.active"> Active Link
+        </label>
+    </div>
+   <input type="button" class="btn btn-primary fa" value="&#xf1d9; Submit" ng-click="setLiveLecture()">
+</div>
+
+<div class="container-fluid">
+    <h3 style="padding: 10px;color:#2b669a">Recorded Lectures Edit:</h3>
+    <div class="search-box-wrapper">
+        <div class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" ng-model="q['title_'+lang]" ng-keyup="setFilter(q['title_'+lang])" placeholder="Search by lecture title">
+        </div>
+    </div>
+    <div class="alert alert-success fade in" ng-show="success">
+        <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="failed">
+        <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+    <div class="alert alert-info fade in" ng-show="operationWait">
+        {{siteStatic[lang].wait}}
+    </div>
+    <pre class="alert alert-info" ng-show="!data.length">Ther is no data right now!</pre>
+    <div class="proj-title " ng-repeat="d in data | limitTo:variance:start | filter:q">
+        <span class="pull-left text-left">{{d["title_"+lang]}}</span>
+        <input type="button" class="pull-right btn btn-danger fa" value="&#xf1f8; Delete" ng-click="delete(this.d.id, d)">
+        <input type="button" class="pull-right btn btn-primary fa" value="&#xf044; Edit Lecture" ng-click="editLecture(d)">
+    </div>
+</div>
+<br>
+<input type="button" class="pull-left btn btn-primary fa" value="&#xf067;  Add new" ng-click="hideInfo = false; subData = {}; addMode=true">
+ <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>
+<div class="hidden-info" ng-hide="hideInfo">
+    <button type="button" class="close text-danger" aria-label="Close" ng-click="hideInfo = true"><span aria-hidden="true">&times;</span></button>
+    <div class="hidden-info-form">
+        <div class="form-group">
+            <label >Image:</label>
+            <div style="width: 200px; width: 200px; position: relative;">
+                <img ng-show="imgUpload" ng-src="{{imgBaseUrl+'/loading.gif'}}" class="img-thumbnail img-responsive" width="200" height="200">
+                <img ng-hide="imgUpload" ng-src="{{imgBaseUrl + subData.img}}" alt="object image" class="img-thumbnail img-responsive" width="200" height="200">
+            </div>
+            <br><br>
+            <button type="file"
+                    ngf-select="updateImg($file, $invalidFiles)"
+                    accept="image/*"
+                    class="btn btn-info fa"
+            >&#xf03e; New image</button>
+        </div>
+        <div class="form-group">
+            <label for="url">Video Url:</label>
+            <input class="form-control" id="url" ng-model="subData.url">
+        </div>
+        <div class="form-group">
+            <label for="title1">Title:</label>
+            <input class="form-control" id="title1" ng-model="subData.title_en">
+        </div>
+        <div class="form-group">
+            <label for="title2" style="float: right;direction: rtl">العنوان:</label>
+            <input class="form-control" id="title2" ng-model="subData.title_ar" style="direction: rtl">
+        </div>
+        <input type="button" value="&#xf0c7; save" ng-click="addLecture(subData.id, subData, 'edit')" class="fa btn btn-primary"/>
+    </div>
+</div>

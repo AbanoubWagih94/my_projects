@@ -1,0 +1,66 @@
+<div style="padding: 20px;position: relative">
+	<img src="images\head.png" id="titop" style="position:absolute;visibility:hidden; height:100px; ">
+    <div>
+        <a class="fa fa-arrow-right pointer pull-right" style="color:deepskyblue;font-size: 2em" href="#/usersResults"></a>
+        <input type="button" ng-click="getContacts()" class="btn btn-info fa center-block" value="&#xf2a0; User Contact">
+        <input type="button" ng-click="pri();" class="btn btn-info fa" value="&#xf02f; Print">
+    </div>
+    <br><br><br>
+    <div>
+        <div ng-show="contacts" style="margin-left:20px;">
+            <p><strong>Name: </strong><b>{{subData.name}}</b></p>
+            <p><strong>Phone: </strong><b>{{contacts.phone}}</b></p>
+            <p><strong>Mail: </strong><b>{{contacts.mail}}</b></p>
+        </div>
+        <div>
+            <h3 class="border">Holland's Code results:</h3>
+            <h4 class="border"><strong>{{subData.name}}</strong> has the following personalities keys:</h4>
+            <span ng-hide="subData.holland.length">None</span>
+            <ul class="flexable" ng-show="subData.holland.length">
+                <li ng-repeat="d in subData.holland">{{d}}</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="border">
+            <h3 class="border">Skills Test results:</h3>
+            <h4 class="border"><strong>{{subData.name}}</strong> has the following scores:</h4>
+            <span ng-hide="subData.skills.data.length">None</span>
+            <ul class="flexable border" ng-show="subData.skills.data.length">
+                <li ng-repeat="d in subData.skills.data">
+                    <span>{{d.question}} : {{d.score}}</span>
+                </li>
+            </ul>
+            <h4 class="border"><strong>{{subData.name}}</strong> wants to Improve:</h4>
+            <span ng-hide="subData.skills.improve.length">None</span>
+            <ul class="flexable border" ng-show="subData.skills.improve.length">
+                <li ng-repeat="d in subData.skills.improve">
+                    <span>{{d.question}} : {{d.score}}</span>
+                </li>
+            </ul>
+            <h4 class="border"><strong>{{subData.name}}</strong> is excellent in:</h4>
+            <span ng-hide="subData.skills.excellent.length">None</span>
+            <ul class="flexable border" ng-show="subData.skills.excellent.length">
+                <li ng-repeat="d in subData.skills.excellent">
+                    <span>{{d.question}} : {{d.score}}</span>
+                </li>
+            </ul>
+    </div>
+        
+        <div class="border">
+            <h3 class="border">Values {{subData.name}} choosed:</h3>
+            <span ng-hide="subData.value.length">None</span>
+            <ul class="flexable border" ng-show="subData.value.length">
+                <li ng-repeat="v in subData.value">
+                    <span>{{v.value}} : {{v.score}}</span>
+                </li>
+            </ul>
+    </div>
+        <div class="border">
+            <h3>MBTI result:<span class="small"><a target="_blank" href="assessment-results/mbti-results/{{subData.mbti}}-{{lang}}.pdf">{{subData.mbti}}</a> Type</span></h3>
+
+        </div>
+        <div class="border">
+            <h3>Enneagram result:<span class="small"><a target="_blank" href="assessment-results/enneagram-results/{{subData.enneagram}}-{{lang}}.pdf">{{subData.enneagram}}</a> Type</span></h3>
+        </div>
+    </div>
+</div>

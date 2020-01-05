@@ -1,0 +1,214 @@
+<style>
+	@media screen and (max-width: 560px){
+			.sec {
+				color:#2b669a;	
+				font-size: 18px;
+			}
+	}
+	@media screen and (min-width: 560px){
+			.sec {
+				color:#2b669a;	
+				margin-left:50px;
+				font-size: 18px;
+			}
+			#bord br {
+				display: none;
+			}
+	}
+	legend{
+		color: #2b669a;
+		margin: 15px 0 15px 0 !important;
+	}
+	table tr td {
+		padding: 0 10px 16px 10px !important;
+	}
+	table tr td a{
+		color:#2aabd2;
+	}
+	.fir {
+		color:green;
+		font-size: 18px;
+	}
+
+	#bord {
+		color: #2aabd2;
+		padding:10px;
+	}
+	.dim {
+		opacity:0.2;
+	}
+	.bright {
+		opacity: 1;
+	}
+    .eng {
+    	margin-left:5%;
+    }
+    .ara {
+    	margin-right: 5%;
+    }
+</style>
+<div class="pre-loader" ng-hide="preLoader"><img src="images/loading.gif" class="center-block"></div>
+<div class="container-fluid">
+	<div id="bord">
+		<legend> <b>{{siteStatic[lang].userInfo}}</b></legend>
+		<table ng-class="(lang =='ar')?'ara':'eng'"> 
+			<tr style="padding:2%;">
+				<td><h4><b> {{siteStatic[lang].name}} </b></h4></td>
+				<td><h4><b> {{userData.name}} </b></h4></td>
+			</tr>
+			<tr>
+				<td><h4><b> {{siteStatic[lang].mail}} </b></h4></td>
+				<td><h4><b> {{userData.mail}} </b></h4></td>
+				</tr>
+			<tr>
+			<tr>
+				<td><h4><b> {{siteStatic[lang].phone}} </b></h4></td>
+				<td><h4><b> {{userData.phone}} </b></h4></td>
+				</tr>
+			</table>
+			<legend> <b>{{siteStatic[lang].testsList}}</b></legend>
+			<table ng-class="(lang =='ar')?'ara':'eng'">
+			<tr>
+				<td><h4> <a href="#/mbti"><b>MBTI</b></a> </h4></td>
+				<td>
+					<div>
+					  <div ng-class="(userData.mbti === null)?'dim':'bright'" class="pull-left fir">
+						
+						 <b class="">{{siteStatic[lang].testFinished}}</b>
+					  </div>
+					  <br>
+					  <div ng-class="!(userData.mbti === null)?'dim':'bright'" class="pull-left sec">
+					
+						 <b>{{siteStatic[lang].testNotFinished}} </b>
+					  </div>
+					</div>
+					</td>
+				</tr>
+			<tr>
+				<td><h4> <a href="#/enneagram"><b>Enneagram</b></a> </h4></td>
+				<td>
+					<div>
+					  <div ng-class="(userData.enneagram === null)?'dim':'bright'" class="pull-left fir">
+					
+						 <b class="">{{siteStatic[lang].testFinished}}</b>
+					  </div>
+					  <br>
+					  <div ng-class="!(userData.enneagram === null)?'dim':'bright'" class="pull-left sec">
+					
+						 <b>{{siteStatic[lang].testNotFinished}} </b>
+					  </div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+			  <tr>
+				<td><h4> <a href="#/holland"><b>Holland's Code</b></a> </h4></td>
+				<td>
+					<div>
+					  <div ng-class="(userData.holland === null)?'dim':'bright'" class="pull-left fir">
+						  
+						 <b class="">{{siteStatic[lang].testFinished}}</b>
+					  </div>
+					  <br>
+					  <div ng-class="!(userData.holland === null)?'dim':'bright'" class="pull-left sec">
+						  
+						 <b>{{siteStatic[lang].testNotFinished}} </b>
+					  </div>
+					</div>
+				</td>
+			  </tr>
+
+				<td><h4> <a href="#/skills"><b>Skills</b></a> </h4></td>
+				<td>
+					<div>
+					  <div ng-class="(userData.skills === null)?'dim':'bright'" class="pull-left fir">
+						  
+						 <b class="">{{siteStatic[lang].testFinished}}</b>
+					  </div>
+					  <br>
+					  <div ng-class="!(userData.skills === null)?'dim':'bright'" class="pull-left sec">
+						  
+						 <b>{{siteStatic[lang].testNotFinished}} </b>
+					  </div>
+					</div>
+				</td>
+				</tr>
+			<tr>
+				<td><h4> <a href="#/values"><b>Values</b></a> </h4></td>
+				<td>
+					<div>
+					  <div ng-class="(userData.value === null)?'dim':'bright'" class="pull-left fir">
+						 
+						 <b class="">{{siteStatic[lang].testFinished}}</b>
+					  </div>
+					  <br>
+					  <div ng-class="!(userData.value === null)?'dim':'bright'" class="pull-left sec">
+						  
+						 <b>{{siteStatic[lang].testNotFinished}} </b>
+					  </div>
+					</div>
+				</td>
+				</tr>
+			</table>
+		</div>
+    <hr>
+                <div class="alert alert-info fade in" ng-show="reserveWait">
+                    {{siteStatic[lang].wait}}
+                </div>
+                
+                <div class="alert alert-success fade in" ng-show="reserveSuccess">
+                    <a class="close" aria-label="close" ng-click="reserveSuccess = false">&times;</a>
+                    {{siteStatic[lang].success}}
+                </div>
+        
+                <div class="alert alert-danger fade in" ng-show="reserveFailed">
+                    <a class="close" aria-label="close" ng-click="reserveFailed = false">&times;</a>
+                    {{siteStatic[lang].error}}
+                </div>     	
+    <a class="fa btn btn-primary" ng-click="hide = false">&#xf040; {{siteStatic[lang].editPw}}</a>
+	<a class="fa btn btn-primary"
+	   ng-click="reserve()"
+	   ng-hide="userData.holland === null
+	   || userData.enneagram === null
+	   || userData.mbti === null
+	   || userData.skills === null
+	   || userData.value === null">
+		&#xf0a2; {{thankMessage[2][lang]}}
+	</a>
+    <br><br>
+    <form ng-hide="hide" ng-submit="updateData()">
+<button type="button" class="close text-danger" aria-label="Close" ng-click="hide= true"><span aria-hidden="true" style="font-size: 1em">&times;</span></button>
+                <div class="alert alert-info fade in" ng-show="wait">
+                    {{siteStatic[lang].wait}}
+                </div>
+                
+                <div class="alert alert-success fade in" ng-show="success">
+                    <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+                    {{siteStatic[lang].success}}
+                </div>
+        
+                <div class="alert alert-danger fade in" ng-show="failed">
+                    <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+                    {{siteStatic[lang].error}}
+                </div>        
+        
+        <div class="form-group">
+                    <label for="spw">{{siteStatic[lang].pw}}</label>
+                    <input ng-model="editData.password" type="password" class="form-control" id="spw" placeholder="*******"  ng-blur="ApiCall('checkPw', editData.password)" required>
+                </div>
+                <br>
+                <div class="alert alert-danger fade in" ng-show="ApiCall('pw')">
+                    {{siteStatic[lang].pwErr}}
+                </div>
+                <div class="form-group">
+                    <label for="pwr">{{siteStatic[lang].pwr}}</label>
+                    <input ng-model="editData.passwordRepeat" type="password" class="form-control" id="pwr" placeholder="*******" ng-blur="ApiCall('checkPws', [editData.password, editData.passwordRepeat])" required>
+                    <br>
+                    <div class="alert alert-danger fade in" ng-show="ApiCall('pws')">
+                        {{siteStatic[lang].pwsErr}}
+                    </div>
+                </div>
+	<button type="submit" class="btn btn-primary" ng-disabled="(ApiCall('pw') || ApiCall('pws'))"><span class="glyphicon glyphicon-send" ></span> {{siteStatic[lang].submit}}</button>
+    </form>
+    <a name="bott"></a>
+</div>

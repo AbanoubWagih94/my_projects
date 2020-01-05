@@ -1,0 +1,68 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div class="container-fluid">
+        <input type="radio" name="filter" ng-click="q={};q.answered = 1">Answered
+        <input type="radio" name="filter" ng-click="q={};q.answered  = 0">Not Answered
+        <input type="radio" name="filter" ng-click="q={}" checked="true">All
+    <div class="search-box-wrapper">
+        <div class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" ng-model="q.user_name" ng-keyup="setFilter(q.user_name)" placeholder="Search by user name">
+        </div>
+    </div>
+    <div class="alert alert-success fade in" ng-show="success">
+        <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="failed">
+        <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+    <div class="alert alert-info fade in" ng-show="operationWait">
+        {{siteStatic[lang].wait}}
+    </div>
+    <pre class="alert alert-info" ng-show="!data.length">Ther is no data right now!</pre>
+    <div class="proj-title " ng-repeat="d in data | limitTo:variance:start | filter:q">
+        <span class="pull-left text-left">{{d.user_name}}</span>
+        <input type="button" class="pull-right btn btn-danger fa" value="&#xf1f8; Delete" ng-click="delete(this.d.id, d)">
+        <input type="button" class="pull-right btn btn-primary fa" value="&#xf29c; Question" ng-click="seeQuestion(d)">
+        <a class="btn btn-info pull-right">{{timeStamp(d.date) | date:'dd/MM/yyyy'}}</a>
+    </div>
+</div>
+ <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>
+<div class="hidden-info" ng-hide="hideInfo" style="direction: ltr">
+    <button type="button" class="close text-danger" aria-label="Close" ng-click="hideInfo = true;addMode=false"><span aria-hidden="true">&times;</span></button>
+    <div class="hidden-info-form">
+        <div class="form-group">
+            <label>Name:</label><span>{{subData.user_name}}</span>
+        </div>
+        <div class="form-group">
+            <label >Question:</label>
+            <textarea class="form-control" rows="6" ng-model="subData.question" disabled="true"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="answer">Answer:</label>
+             <div class="progress" ng-hide="hideUploader">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{uploaded}}%;">
+                  {{uploaded}}%
+                </div>
+              </div>
+             <br>
+               <audio ng-src="{{'sounds/'+subData.answer}}" controls ng-show="subData.answer"></audio>
+               <br>
+               <button type="file"
+                  ngf-select="uploadAnswer($file, $invalidFiles)"
+                  accept="audio/mpeg"
+                  class="btn btn-info fa">
+                  &#xf093; Upload Answer
+               </button>
+        </div>
+        <br>
+        <input type="button" value="&#xf00c; Answer" ng-click="answerQuestion(subData.id, subData)" class="fa btn btn-info"/>
+    </div>
+</div>

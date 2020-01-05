@@ -1,0 +1,395 @@
+[
+  {
+    "question": "Collaborating with others on a team",
+    "category": "INTERPERSONAL SKILLS"
+  },
+  {
+    "question": "Providing feedback and encouragement",
+    "category": "INTERPERSONAL SKILLS"
+  },
+  {
+    "question": "Teaching, training, advising others",
+    "category": "INTERPERSONAL SKILLS"
+  },
+  {
+    "question": "Leading others",
+    "category": "INTERPERSONAL SKILLS"
+  },
+  {
+    "question": "Facilitating compromise/agreement",
+    "category": "INTERPERSONAL SKILLS"
+  },
+  {
+    "question": "Analyzing the behavior of self and others in group situations",
+    "category": "INTERPERSONAL SKILLS"
+  },
+  {
+    "question": "Serving/meeting customer expectations",
+    "category": "INTERPERSONAL SKILLS"
+  },
+
+  {
+    "question": "Speaking clearly",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Selling a product or service",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Giving effective oral presentations",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Listening effectively",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Interviewing and probing for information",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Using language, grammar, and punctuation correctly",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Editing and preparing concise written materials",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Writing creatively",
+    "category": "COMMUNICATION SKILLS"
+  },
+  {
+    "question": "Defining the problem and collecting relevant information",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Generating alternative solutions",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Evaluating alternatives including costs and benefits",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Selecting appropriate solutions",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Developing plans to implement solutions",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Implementing solutions to complex problems",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Establishing criteria to evaluate effectiveness of solutions",
+    "category": "DECISION-MAKING SKILLS"
+  },
+  {
+    "question": "Forecasting, predicting, foreseeing, perceiving trends",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Organizing resources to meet goals",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Identifying goals, objectives, and tasks to be accomplished",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Prioritizing steps",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Making and keeping a schedule",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Handling multiple demands for time, energy, and resources",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Evaluating progress",
+    "category": "PLANNING AND ORGANIZATIONAL SKILLS"
+  },
+  {
+    "question": "Organizing people and tasks to achieve specific goals",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Understanding strengths and weaknesses of others",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Using strengths to build and develop the team",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Formulating a series of steps to meet goals/objectives",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Delegating responsibility for various tasks",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Developing strategies for executing an action plan",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Coaching/mentoring team members",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Resolving/negotiating any team conflicts",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Working effectively with organization members",
+    "category": "LEADERSHIP AND TEAM BUILDING SKILLS"
+  },
+  {
+    "question": "Preparing a budget including justification",
+    "category": "FINANCIAL MANAGEMENT SKILLS"
+  },
+  {
+    "question": "Monitoring expenses",
+    "category": "FINANCIAL MANAGEMENT SKILLS"
+  },
+  {
+    "question": "Making payments on time",
+    "category": "FINANCIAL MANAGEMENT SKILLS"
+  },
+  {
+    "question": "Keeping accurate records of accounts receivables",
+    "category": "FINANCIAL MANAGEMENT SKILLS"
+  },
+  {
+    "question": "Preparing monthly statements",
+    "category": "FINANCIAL MANAGEMENT SKILLS"
+  },
+  {
+    "question": "Building, making, repairing objects",
+    "category": "MECHANICAL AND TECHNICAL SKILLS"
+  },
+  {
+    "question": "Driving or operating vehicles and special equipment",
+    "category": "MECHANICAL AND TECHNICAL SKILLS"
+  },
+  {
+    "question": "Applying mechanical principles to practical situations",
+    "category": "MECHANICAL AND TECHNICAL SKILLS"
+  },
+  {
+    "question": "Using machines or hand tools",
+    "category": "MECHANICAL AND TECHNICAL SKILLS"
+  },
+  {
+    "question": "Moving with dexterity, physical coordination, and agility",
+    "category": "MECHANICAL AND TECHNICAL SKILLS"
+  },
+  {
+    "question": "Using logic or scientific thinking to solve problems",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Understanding complex technical and scientific information",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Developing a hypothesis and designing an experiment, plan, or model",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Using words, diagrams, numbers, and chemical formulas",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Understanding and using scientific and technical language and symbols",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Working precisely and accurately",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Observing, reflecting, and using insight",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Experimenting, dissecting, and applying various methods to test the validity of data",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Sorting information into categories, classifying, comparing, and finding patterns",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Locating resources using a variety of sources of information",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Developing mathematical models for scientific, behavioral, or economic phenomena",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Using non-verbal symbols to express ideas and interpret data",
+    "category": "SCIENTIFIC, MATHEMATICAL, RESEARCH, AND INVESTIGATIVE SKILLS"
+  },
+  {
+    "question": "Learning rules of a sport and performing them accurately",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Making decisions quickly",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Coordinating eye, hand, body, and foot movements with skill",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Coping with the physical/mental pressures of competition",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Following training schedule strictly",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Assuming the risk of physical injury",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Judging distance, speed, and movement of objects or people",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Observing, reflecting, and using insight",
+    "category": "PHYSICAL PERFORMANCE"
+  },
+  {
+    "question": "Understanding and applying artistic principles/techniques",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Visualizing how the final product will look from rough sketches or working drawings",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Using eyes, hands, and fingers skillfully to guide tools precisely",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Designing buildings or interiors of rooms",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Performing before an audience with poise and self-confidence",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Interpreting roles and expressing emotions through gestures, facial expressions, and voice inflections",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Speaking clearly and loudly, memorizing dialogue, and responding to cues promptly",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Spending long hours developing and perfecting your talent and continuing to  practice daily",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Recognizing and following music symbols and oral or written instructions for  interpreting music properly",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Orchestrating or arranging compositions to create desired effects",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Applying musical theories and techniques to direct performances or vocal or  instrumental groups",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Imagining, creating, inventing, and innovating",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Critiquing plays or  writings",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Influencing the opinions of people through words",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Reading literature and preparing summaries",
+    "category": "CREATIVE EXPRESSIONS"
+  },
+  {
+    "question": "Empathizing, offering support, and caring",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Recognizing needs of others",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Developing rapport and establishing relationships",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Valuing people from diverse socioeconomic, religious, racial, ability, and sexual orientation backgrounds",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Helping others see themselves as valuable assets to society",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Mentoring, coaching, counseling, and advising",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Facilitating groups",
+    "category": "HUMAN RELATIONS SKILLS"
+  },
+  {
+    "question": "Matching self-knowledge to information about occupations",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Identifying, describing, and assessing your needs, values, and interests",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Identifying and describing skills gained through education and life experiences",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Identifying your own strengths and weaknesses",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Accepting responsibility for your actions and learning from constructive criticism",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Maintaining a healthy lifestyle",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Seeking opportunities for personal growth and professional development",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  },
+  {
+    "question": "Understanding and displaying appropriate behaviors for the workplace",
+    "category": "PERSONAL AND CAREER DEVELOPMENT SKILLS"
+  }
+]

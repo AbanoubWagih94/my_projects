@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+.logging {
+    background-color: #eee9e9;
+}
+.log_div {
+    border-bottom: 5px solid #eee9e9;
+    -webkit-transition: color 500ms;
+    -moz-transition: color 500ms;
+    transition: color 500ms;
+    -webkit-transition: background-color 500ms;
+    -moz-transition: background-color 500ms;
+    transition: background-color 500ms;
+}
+.logging .btn-danger {
+    background-color: #c0272c;
+    padding:12px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+}
+.log_div:hover  {
+    color: #F4F4F4;
+    background-color: #c0272c;
+}
+.selected {
+    background-color: #d7d7d7;
+    border-bottom: 5px solid #c0272c;
+}
+.log_div:nth-child(1) {
+    border-top-left-radius: 5px;
+}
+.log_div:nth-child(2) {
+    border-top-right-radius: 5px;
+}
+label {
+    font-size: 19px;
+}
+.form-group input {
+    font-size: 16px;
+}
+.form-group a {
+    color:#c0272c;
+}

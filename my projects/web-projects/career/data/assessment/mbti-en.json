@@ -1,0 +1,982 @@
+[
+  {
+    "question": "At a party do you:",
+    "answers": [
+      {
+        "answer": "Interact with many, including strangers",
+        "value": "a"
+      },
+      {
+        "answer": "Interact with a few, known to you",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "At parties do you:",
+    "answers": [
+      {
+        "answer": "Stay late, with increasing energy",
+        "value": "a"
+      },
+      {
+        "answer": "Leave early with decreased energy",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "In your social groups do you:",
+    "answers": [
+      {
+        "answer": "Keep abreast of other’s happenings",
+        "value": "a"
+      },
+      {
+        "answer": "Get behind on the news",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "In phoning do you:",
+    "answers": [
+      {
+        "answer": "Rarely question that it will all be said",
+        "value": "a"
+      },
+      {
+        "answer": "Rehearse what you’ll say",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "In company do you:",
+    "answers": [
+      {
+        "answer": "initiate conversation",
+        "value": "a"
+      },
+      {
+        "answer": "wait to be approached",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "Does new and non-routine interaction with others:",
+    "answers": [
+      {
+        "answer": "stimulate and energize you",
+        "value": "a"
+      },
+      {
+        "answer": "tax your reserves",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "Do you prefer:",
+    "answers": [
+      {
+        "answer": "many friends with brief contact",
+        "value": "a"
+      },
+      {
+        "answer": "a few friends with more lengthy contact",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "Do you:",
+    "answers": [
+      {
+        "answer": "speak easily and at length with strangers",
+        "value": "a"
+      },
+      {
+        "answer": "find little to say to strangers",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "When the phone rings do you:",
+    "answers": [
+      {
+        "answer": "hasten to get to it first",
+        "value": "a"
+      },
+      {
+        "answer": "hope someone else will answer",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "Are you more inclined to be:",
+    "answers": [
+      {
+        "answer": "easy to approach",
+        "value": "a"
+      },
+      {
+        "answer": "somewhat reserved",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "Are you more:",
+    "answers": [
+      {
+        "answer": "Realistic than speculative",
+        "value": "a"
+      },
+      {
+        "answer": "Speculative than realistic",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Is it worse to:",
+    "answers": [
+      {
+        "answer": "Have your “head in the clouds”",
+        "value": "a"
+      },
+      {
+        "answer": "Be “in a rut”",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more attracted to:",
+    "answers": [
+      {
+        "answer": "Sensible people",
+        "value": "a"
+      },
+      {
+        "answer": "Imaginative people",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more interested in:",
+    "answers": [
+      {
+        "answer": "What is actual",
+        "value": "a"
+      },
+      {
+        "answer": "What is possible",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "In doing ordinary things are you more likely to:",
+    "answers": [
+      {
+        "answer": "Do it the usual way",
+        "value": "a"
+      },
+      {
+        "answer": "Do it your own way",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Writers should:",
+    "answers": [
+      {
+        "answer": "“Say what they mean and mean what they say”",
+        "value": "a"
+      },
+      {
+        "answer": "Express things more by use of analogy",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Facts:",
+    "answers": [
+      {
+        "answer": "“Speak for themselves”",
+        "value": "a"
+      },
+      {
+        "answer": "Illustrate principles",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are visionaries:",
+    "answers": [
+      {
+        "answer": "somewhat annoying",
+        "value": "a"
+      },
+      {
+        "answer": "rather fascinating",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Common sense is:",
+    "answers": [
+      {
+        "answer": "rarely questionable",
+        "value": "a"
+      },
+      {
+        "answer": "frequently questionable",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Children often do not:",
+    "answers": [
+      {
+        "answer": "make themselves useful enough",
+        "value": "a"
+      },
+      {
+        "answer": "exercise their fantasy enough",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more frequently:",
+    "answers": [
+      {
+        "answer": "a practical sort of person",
+        "value": "a"
+      },
+      {
+        "answer": "a fanciful sort of person",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more likely to:",
+    "answers": [
+      {
+        "answer": "see how others are useful",
+        "value": "a"
+      },
+      {
+        "answer": "see how others see",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Do you go more by:",
+    "answers": [
+      {
+        "answer": "facts",
+        "value": "a"
+      },
+      {
+        "answer": "principles",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more interested in:",
+    "answers": [
+      {
+        "answer": "production and distribution",
+        "value": "a"
+      },
+      {
+        "answer": "design and research",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more likely to trust your:",
+    "answers": [
+      {
+        "answer": "experience",
+        "value": "a"
+      },
+      {
+        "answer": "hunch",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Do you feel:",
+    "answers": [
+      {
+        "answer": "more practical than ingenious",
+        "value": "a"
+      },
+      {
+        "answer": "more ingenious than practical",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Do you prize more in yourself:",
+    "answers": [
+      {
+        "answer": "a strong sense of reality",
+        "value": "a"
+      },
+      {
+        "answer": "a vivid imagination",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you drawn more to:",
+    "answers": [
+      {
+        "answer": "fundamentals",
+        "value": "a"
+      },
+      {
+        "answer": "overtones",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "In writings do you prefer:",
+    "answers": [
+      {
+        "answer": "the more literal",
+        "value": "a"
+      },
+      {
+        "answer": "the more figurative",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Is it harder for you to:",
+    "answers": [
+      {
+        "answer": "identify with others",
+        "value": "a"
+      },
+      {
+        "answer": "utilize others",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "Are you more impressed by:",
+    "answers": [
+      {
+        "answer": "Principles",
+        "value": "a"
+      },
+      {
+        "answer": "Emotions",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Are more drawn toward the:",
+    "answers": [
+      {
+        "answer": "Convincing",
+        "value": "a"
+      },
+      {
+        "answer": "Touching",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "In judging others are you more swayed by:",
+    "answers": [
+      {
+        "answer": "Laws than circumstances",
+        "value": "a"
+      },
+      {
+        "answer": "Circumstances than laws",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "In approaching others is your inclination to be somewhat:",
+    "answers": [
+      {
+        "answer": "Objective",
+        "value": "a"
+      },
+      {
+        "answer": "Personal",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which appeals to you more:",
+    "answers": [
+      {
+        "answer": "Consistency of thought",
+        "value": "a"
+      },
+      {
+        "answer": "Harmonious human relationships",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Are you more comfortable in making:",
+    "answers": [
+      {
+        "answer": "Logical judgments",
+        "value": "a"
+      },
+      {
+        "answer": "Value judgments",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Are you more often:",
+    "answers": [
+      {
+        "answer": "a cool-headed person",
+        "value": "a"
+      },
+      {
+        "answer": "a warm-hearted person",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Is it worse to be:",
+    "answers": [
+      {
+        "answer": "unjust",
+        "value": "a"
+      },
+      {
+        "answer": "merciless",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "In making decisions do you feel more comfortable with:",
+    "answers": [
+      {
+        "answer": "standards",
+        "value": "a"
+      },
+      {
+        "answer": "feelings",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Are you more:",
+    "answers": [
+      {
+        "answer": "firm than gentle",
+        "value": "a"
+      },
+      {
+        "answer": "gentle than firm",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which is more satisfying:",
+    "answers": [
+      {
+        "answer": "to discuss an issue thoroughly",
+        "value": "a"
+      },
+      {
+        "answer": "to arrive at agreement on an issue",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which rules you more:",
+    "answers": [
+      {
+        "answer": "your head",
+        "value": "a"
+      },
+      {
+        "answer": "your heart",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which is more of a compliment:",
+    "answers": [
+      {
+        "answer": "“There is a very logical person.”",
+        "value": "a"
+      },
+      {
+        "answer": "“There is a very sentimental person.”",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Do you value in yourself more that you are:",
+    "answers": [
+      {
+        "answer": "unwavering",
+        "value": "a"
+      },
+      {
+        "answer": "devoted",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which person is more to be complimented – one of",
+    "answers": [
+      {
+        "answer": "clear reason",
+        "value": "a"
+      },
+      {
+        "answer": "strong feeling",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Are you inclined more to be:",
+    "answers": [
+      {
+        "answer": "fair-minded",
+        "value": "a"
+      },
+      {
+        "answer": "sympathetic",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which seems the greater error:",
+    "answers": [
+      {
+        "answer": "to be too passionate",
+        "value": "a"
+      },
+      {
+        "answer": "to be too objective",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Do you see yourself as basically:",
+    "answers": [
+      {
+        "answer": "hard-headed",
+        "value": "a"
+      },
+      {
+        "answer": "soft-hearted",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which do you wish more for yourself:",
+    "answers": [
+      {
+        "answer": "clarity of reason",
+        "value": "a"
+      },
+      {
+        "answer": "strength of compassion",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Which is the greater fault:",
+    "answers": [
+      {
+        "answer": "being indiscriminate",
+        "value": "a"
+      },
+      {
+        "answer": "being critical",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "Do you prefer to work:",
+    "answers": [
+      {
+        "answer": "To deadlines",
+        "value": "a"
+      },
+      {
+        "answer": "Just “whenever”",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you tend to choose:",
+    "answers": [
+      {
+        "answer": "Rather carefully",
+        "value": "a"
+      },
+      {
+        "answer": "Somewhat impulsively",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Are you more:",
+    "answers": [
+      {
+        "answer": "Punctual",
+        "value": "a"
+      },
+      {
+        "answer": "Leisurely",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Does it bother you more having things:",
+    "answers": [
+      {
+        "answer": "Incomplete",
+        "value": "a"
+      },
+      {
+        "answer": "Completed",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you want things:",
+    "answers": [
+      {
+        "answer": "Settled and decided",
+        "value": "a"
+      },
+      {
+        "answer": "Unsettled and undecided",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Would you say you are more:",
+    "answers": [
+      {
+        "answer": "Serious and determined",
+        "value": "a"
+      },
+      {
+        "answer": "Easy-going",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Should one usually let events occur:",
+    "answers": [
+      {
+        "answer": "by careful selection and choice",
+        "value": "a"
+      },
+      {
+        "answer": "randomly and by chance",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you feel better about:",
+    "answers": [
+      {
+        "answer": "having purchased",
+        "value": "a"
+      },
+      {
+        "answer": "having the option to buy",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Which is more admirable:",
+    "answers": [
+      {
+        "answer": "the ability to organize and be methodical",
+        "value": "a"
+      },
+      {
+        "answer": "the ability to adapt and make do",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you put more value on:",
+    "answers": [
+      {
+        "answer": "infinite",
+        "value": "a"
+      },
+      {
+        "answer": "open-minded",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Are you more comfortable with work that is:",
+    "answers": [
+      {
+        "answer": "contracted",
+        "value": "a"
+      },
+      {
+        "answer": "done on a casual basis",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you tend to look for:",
+    "answers": [
+      {
+        "answer": "the orderly",
+        "value": "a"
+      },
+      {
+        "answer": "whatever turns up",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you more often prefer the",
+    "answers": [
+      {
+        "answer": "final and unalterable statement",
+        "value": "a"
+      },
+      {
+        "answer": "tentative and preliminary statement",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Are you more comfortable:",
+    "answers": [
+      {
+        "answer": "after a decision",
+        "value": "a"
+      },
+      {
+        "answer": "before a decision",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Is it preferable mostly to:",
+    "answers": [
+      {
+        "answer": "make sure things are arranged",
+        "value": "a"
+      },
+      {
+        "answer": "just let things happen",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "In relationships should most things be:",
+    "answers": [
+      {
+        "answer": "re-negotiable",
+        "value": "a"
+      },
+      {
+        "answer": "random and circumstantial",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Which situation appeals to you more:",
+    "answers": [
+      {
+        "answer": "the structured and scheduled",
+        "value": "a"
+      },
+      {
+        "answer": "the unstructured and unscheduled",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Are you a person that is more:",
+    "answers": [
+      {
+        "answer": "Routinized than whimsical",
+        "value": "a"
+      },
+      {
+        "answer": "Whimsical than routinized",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you prefer the:",
+    "answers": [
+      {
+        "answer": "planned event",
+        "value": "a"
+      },
+      {
+        "answer": "unplanned event",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "Do you tend to be more:",
+    "answers": [
+      {
+        "answer": "deliberate than spontaneous",
+        "value": "a"
+      },
+      {
+        "answer": "spontaneous than deliberate",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  }
+]

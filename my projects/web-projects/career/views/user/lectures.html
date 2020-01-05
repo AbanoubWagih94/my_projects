@@ -1,0 +1,57 @@
+<style>
+    #img-viewer-container {
+        width:80%;
+        height: 150px;
+        margin: auto auto !important;
+    }
+    div.thumbnail{
+        background-color: #5bc0de;
+        padding: 10px;
+        display: inline-block;
+        margin: 5px !important;
+    }
+    a.thumbnail img{
+        height:200px;
+        width:200px;
+    }
+    #live-lecture-container{
+        height: 150px;
+        border-bottom: 2px solid #2b669a;
+    }
+</style>
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div id="live-lecture-container">
+<h3 style="padding: 10px;color:#2b669a">{{pageStatic[lang].liveTitle}}</h3>
+    <p style="height: 80px; padding: 10px" class="alert alert-info">
+        {{pageStatic[lang].liveInfo}}  {{liveLecture.dateTime | date : 'short'}}
+        <a ng-show="liveLecture.active === 'true'" target="_blank" href="{{liveLecture.link}}">{{pageStatic[lang].toLecture}}</a>
+    </p>
+</div>
+<div id="img-viewer-container">
+    <h3 style="padding: 10px;color:#2b669a">{{pageStatic[lang].oldTitle}}</h3>
+    <div class="search-box-wrapper">
+        <div class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" ng-model="q['title_'+lang]" ng-keyup="setFilter(q['title_'+lang])" placeholder="Search by title">
+        </div>
+    </div>
+    <div class="thumbnail" ng-repeat="d in data | limitTo:variance:start | filter:q">
+        <a class="thumbnail"><img ng-src="{{imgBaseUrl + d.img}}" ng-click="watchVideo(d.url)"></a>
+        <div class="caption">
+            <h3 style="text-align: center">{{d['title_'+lang]}}</h3>
+        </div>
+    </div>
+     <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>
+
+</div>
+<div class="hidden-info" ng-hide="hideInfo">
+    <button type="button" class="close text-danger" aria-label="Close"><span aria-hidden="true" style="font-size: 2.5em" ng-click="watchVideo('afsfasf')">&times;</span></button>
+    <div>
+        <object width="100%" height="500px" data="http://www.youtube.com/embed/{{videoUrl}}" allowfullscreen></object>
+    </div>
+</div>

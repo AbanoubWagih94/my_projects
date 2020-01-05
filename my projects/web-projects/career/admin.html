@@ -1,0 +1,82 @@
+ <html lang="en">
+  <head>
+      <title>Admin Panel</title>
+      <!--Meta Tags-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+      <!--Boot Strap-->
+      <link href='css/gloria.css' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+      <!--Custom CSS-->
+      <link rel="stylesheet" type="text/css" href="css/admin.css">
+
+      <!--Angular-->
+      <script src="js/angular/angular.js"></script>
+      <script src="js/angular-route/angular-route.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+
+      <!--ngFileUpload-->
+      <script src="js/ng-file-upload/dist/ng-file-upload-shim.min.js"></script> <!-- for no html5 browsers support -->
+      <script src="js/ng-file-upload/dist/ng-file-upload.min.js"></script>
+
+      <!--jQuery-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery-ui.js"></script>
+
+      <!--App Core-->
+      <script src="js/core/adminCore.js"></script>
+</head>
+<body ng-controller='Admin' ng-app="App">
+<header>
+     <nav id="header" class="links">
+          <h3 class="title"><i class="fa fa-user-md" aria-hidden="true"></i>  Career Doctor</h3>
+            <nav id="langua" style="float: right;position: relative;right:10px ; font-size: 18px;color:white">
+                <a style="color: whitesmoke"><i class="fa fa-user"></i>Admin</a> |
+                <img src="images/us.png" ng-click="changeLang('en')" class="pointer">
+                <img src="images/eg.png" ng-click="changeLang('ar')" class="pointer">
+            </nav>
+    </nav>>
+</header>
+ <div class="container-fluid">
+    <div class="row">
+        <div class="fixed"></div>
+        <div  class="col-lg-1 col-md-1 col-sm-0 col-xs-0  left">
+           <ul id="list">
+               <li id="dashboard" ng-click = "dropActive = !dropActive"><a><i class="fa fa-pie-chart" aria-hidden="true"></i><p>Dashboard</p></a></li>
+
+               <li class="sub-list" ng-hide = "dropActive">
+               <ul>
+                   <li > <a href="#/home"> Home </a></li>
+                   <li > <a href="#/about"> About</a> </li>
+                   <li > <a href="#/services"> Services </a> </li>
+                   <li > <a href="#/ourwork"> Our work </a> </li>             
+               </ul>
+               </li>
+
+               <li><a href="#/contact"><i class="fa fa-envelope-o"></i><p>Contact Us</p></a></li>
+               <li><a href="#/usersResults"><i class="fa fa-database"></i><p>Users Results</p></a></li>
+               <li><a href="#/questions"><i class="fa fa-question" aria-hidden="true"></i><p>Users Questions</p></a></li>
+               <li><a href="#/lectures-edit"><i class="fa fa-television" aria-hidden="true"></i><p>Lectures</p></a></li>
+           </ul>
+        </div>
+
+        <div ng-view id="main" class="col-lg-11 col-md-10 col-sm-11 col-xs-12 container-fluid"></div>
+       </div>
+     <!--Controllers-->
+        <script src="js/controllers/admin/admin.js"></script>
+        <script src="js/controllers/admin/homeEdit.js"></script>
+        <script src="js/controllers/admin/edit.js"></script>
+        <script src="js/controllers/admin/contact.js"></script>
+         <script src="js/controllers/admin/questions.js"></script>
+         <script src="js/controllers/admin/lectures-edit.js"></script>
+        <script src="js/controllers/admin/users-results.js"></script>
+        <script src="js/controllers/admin/user-results-details.js"></script>        
+     <!--Services-->
+        <script src="js/services/api.js"></script>
+</div>
+</body>
+</html>

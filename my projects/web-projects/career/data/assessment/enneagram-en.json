@@ -1,0 +1,506 @@
+[
+  {
+    "question": "1",
+    "answers": [
+      {
+        "answer": "I've been romantic and imaginative.",
+        "value": "a"
+      },
+      {
+        "answer": "I've been pragmatic and down to earth.",
+        "value": "b"
+      }
+    ],
+    "category": "EB"
+  },
+  {
+    "question": "2",
+    "answers": [
+      {
+        "answer": "I have tended to take on confrontations.",
+        "value": "a"
+      },
+      {
+        "answer": "I have tended avoid confrontations.",
+        "value": "b"
+      }
+    ],
+    "category": "GA"
+  },
+  {
+    "question": "3",
+    "answers": [
+      {
+        "answer": "I have typically been diplomatic, charming, and ambitious.",
+        "value": "a"
+      },
+      {
+        "answer": "I have typically been direct, formal, and idealistic.",
+        "value": "b"
+      }
+    ],
+    "category": "CD"
+  },
+  {
+    "question": "4",
+    "answers": [
+      {
+        "answer": "I have tended to be focused and intense.",
+        "value": "a"
+      },
+      {
+        "answer": "I have tended to be spontaneous and fun-loving.",
+        "value": "b"
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "question": "5",
+    "answers": [
+      {
+        "answer": "I have been a hospitable person and have enjoyed welcoming new friends into my life.",
+        "value": "a"
+      },
+      {
+        "answer": "I have been a private person and have not mixed much with others.",
+        "value": "b"
+      }
+    ],
+    "category": "FE"
+  },
+  {
+    "question": "6",
+    "answers": [
+      {
+        "answer": "Generally, it's been easy to \"get a rise\" out of me.",
+        "value": "a"
+      },
+      {
+        "answer": "Generally, it's been difficult to \"get a rise\" out of me.",
+        "value": "b"
+      }
+    ],
+    "category": "BA"
+  },
+  {
+    "question": "7",
+    "answers": [
+      {
+        "answer": "I've been more of a \"street-smart\" survivor.",
+        "value": "a"
+      },
+      {
+        "answer": "I've been more of a \"high-minded\" idealist.",
+        "value": "b"
+      }
+    ],
+    "category": "GD"
+  },
+  {
+    "question": "8",
+    "answers": [
+      {
+        "answer": "I have needed to show affection to people.",
+        "value": "a"
+      },
+      {
+        "answer": "I have preferred to maintain a certain distance with people.",
+        "value": "b"
+      }
+    ],
+    "category": "FH"
+  },
+  {
+    "question": "9",
+    "answers": [
+      {
+        "answer": "When presented with a new experience, I've usually asked myself if it would be useful to me.",
+        "value": "a"
+      },
+      {
+        "answer": "When presented with a new experience, I've usually asked myself if it would be enjoyable.",
+        "value": "b"
+      }
+    ],
+    "category": "CI"
+  },
+  {
+    "question": "10",
+    "answers": [
+      {
+        "answer": "I have tended to focus too much on myself.",
+        "value": "a"
+      },
+      {
+        "answer": "I have tended to focus too much on others.",
+        "value": "b"
+      }
+    ],
+    "category": "EA"
+  },
+  {
+    "question": "11",
+    "answers": [
+      {
+        "answer": "Others have depended on my insight and knowledge.",
+        "value": "a"
+      },
+      {
+        "answer": "Others have depended on my strength and decisiveness.",
+        "value": "b"
+      }
+    ],
+    "category": "HG"
+  },
+  {
+    "question": "12",
+    "answers": [
+      {
+        "answer": "I have come across as being too unsure of myself.",
+        "value": "a"
+      },
+      {
+        "answer": "I have come across as being too sure of myself.",
+        "value": "b"
+      }
+    ],
+    "category": "BD"
+  },
+  {
+    "question": "13",
+    "answers": [
+      {
+        "answer": "I have been more relationship-oriented than goal-oriented.",
+        "value": "a"
+      },
+      {
+        "answer": "I have been more goal-oriented than relationship-oriented.",
+        "value": "b"
+      }
+    ],
+    "category": "FC"
+  },
+  {
+    "question": "14",
+    "answers": [
+      {
+        "answer": "I have not been able to speak up for myself very well.",
+        "value": "a"
+      },
+      {
+        "answer": "I have been outspoken—I've said what others wished they had the nerve to say.",
+        "value": "b"
+      }
+    ],
+    "category": "DH"
+  },
+  {
+    "question": "15",
+    "answers": [
+      {
+        "answer": "It's been difficult for me to stop considering alternatives and do something definite.",
+        "value": "a"
+      },
+      {
+        "answer": "It's been difficult for me to take it easy and be more flexible.",
+        "value": "b"
+      }
+    ],
+    "category": "HD"
+  },
+  {
+    "question": "16",
+    "answers": [
+      {
+        "answer": "I have tended to be hesitant and procrastinating.",
+        "value": "a"
+      },
+      {
+        "answer": "I have tended to be bold and domineering.",
+        "value": "b"
+      }
+    ],
+    "category": "BG"
+  },
+  {
+    "question": "17",
+    "answers": [
+      {
+        "answer": "My reluctance to get too involved has gotten me into trouble with people.",
+        "value": "a"
+      },
+      {
+        "answer": "My eagerness to have people depend on me has gotten me into trouble with them.",
+        "value": "b"
+      }
+    ],
+    "category": "AF"
+  },
+  {
+    "question": "18",
+    "answers": [
+      {
+        "answer": "Usually, I have been able to put my feelings aside to get the job done.",
+        "value": "a"
+      },
+      {
+        "answer": "Usually, I have needed to work through my feelings before I could act.",
+        "value": "b"
+      }
+    ],
+    "category": "CE"
+  },
+  {
+    "question": "19",
+    "answers": [
+      {
+        "answer": "Generally, I have been methodical and cautious.",
+        "value": "a"
+      },
+      {
+        "answer": "Generally, I have been adventurous and taken risks.",
+        "value": "b"
+      }
+    ],
+    "category": "BI"
+  },
+  {
+    "question": "20",
+    "answers": [
+      {
+        "answer": "I have tended to be a supportive, giving person who enjoys the company of others.",
+        "value": "a"
+      },
+      {
+        "answer": "I have tended to be a serious, reserved person who likes discussing issues.",
+        "value": "b"
+      }
+    ],
+    "category": "FD"
+  },
+  {
+    "question": "21",
+    "answers": [
+      {
+        "answer": "I've often felt the need to be a \"pillar of strength.\"",
+        "value": "a"
+      },
+      {
+        "answer": "I've often felt the need to perform perfectly.",
+        "value": "b"
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "question": "22",
+    "answers": [
+      {
+        "answer": "I've typically been interested in asking tough questions and maintaining my independence.",
+        "value": "a"
+      },
+      {
+        "answer": "I've typically been interested in maintaining my stability and peace of mind.",
+        "value": "b"
+      }
+    ],
+    "category": "HA"
+  },
+  {
+    "question": "23",
+    "answers": [
+      {
+        "answer": "I've been too hard-nosed and sceptical.",
+        "value": "a"
+      },
+      {
+        "answer": "I've been too soft-hearted and sentimental.",
+        "value": "b"
+      }
+    ],
+    "category": "BF"
+  },
+  {
+    "question": "24",
+    "answers": [
+      {
+        "answer": "I've often worried that I'm missing out on something better.",
+        "value": "a"
+      },
+      {
+        "answer": "I've often worried that if I let down my guard, someone will take advantage of me.",
+        "value": "b"
+      }
+    ],
+    "category": "IG"
+  },
+  {
+    "question": "25",
+    "answers": [
+      {
+        "answer": "My habit of being \"stand-offish\" has annoyed people.",
+        "value": "a"
+      },
+      {
+        "answer": "My habit of telling people what to do has annoyed people.",
+        "value": "b"
+      }
+    ],
+    "category": "ED"
+  },
+  {
+    "question": "26",
+    "answers": [
+      {
+        "answer": "Usually, when troubles have gotten to me, I have been able to \"tune them out.\"",
+        "value": "a"
+      },
+      {
+        "answer": "Usually, when troubles have gotten to me, I have treated myself to something I've enjoyed.",
+        "value": "b"
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "question": "27",
+    "answers": [
+      {
+        "answer": "I have depended upon my friends and they have known that they can depend on me.",
+        "value": "a"
+      },
+      {
+        "answer": "I have not depended on people; I have done things on my own.",
+        "value": "b"
+      }
+    ],
+    "category": "BC"
+  },
+  {
+    "question": "28",
+    "answers": [
+      {
+        "answer": "I have tended to be detached and preoccupied.",
+        "value": "a"
+      },
+      {
+        "answer": "I have tended to be moody and self-absorbed.",
+        "value": "b"
+      }
+    ],
+    "category": "HE"
+  },
+  {
+    "question": "29",
+    "answers": [
+      {
+        "answer": "I have liked to challenge people and \"shake them up.\"",
+        "value": "a"
+      },
+      {
+        "answer": "I have liked to comfort people and calm them down.",
+        "value": "b"
+      }
+    ],
+    "category": "GF"
+  },
+  {
+    "question": "30",
+    "answers": [
+      {
+        "answer": "I have generally been an outgoing, sociable person.",
+        "value": "a"
+      },
+      {
+        "answer": "I have generally been an earnest, self-disciplined person.",
+        "value": "b"
+      }
+    ],
+    "category": "ID"
+  },
+  {
+    "question": "31",
+    "answers": [
+      {
+        "answer": "I've usually been shy about showing my abilities.",
+        "value": "a"
+      },
+      {
+        "answer": "I've usually liked to let people know what I can do well.",
+        "value": "b"
+      }
+    ],
+    "category": "AC"
+  },
+  {
+    "question": "32",
+    "answers": [
+      {
+        "answer": "Pursuing my personal interests has been more important to me than having comfort and security.",
+        "value": "a"
+      },
+      {
+        "answer": "Having comfort and security has been more important to me than pursuing my personal interests.",
+        "value": "b"
+      }
+    ],
+    "category": "HB"
+  },
+  {
+    "question": "33",
+    "answers": [
+      {
+        "answer": "When I've had conflict with others, I've tended to withdraw.",
+        "value": "a"
+      },
+      {
+        "answer": "When I've had conflict with others, I've rarely backed down.",
+        "value": "b"
+      }
+    ],
+    "category": "EG"
+  },
+  {
+    "question": "34",
+    "answers": [
+      {
+        "answer": "I have given in too easily and let others push me around.",
+        "value": "a"
+      },
+      {
+        "answer": "I have been too uncompromising and demanding with others.",
+        "value": "b"
+      }
+    ],
+    "category": "AD"
+  },
+  {
+    "question": "35",
+    "answers": [
+      {
+        "answer": "I've been appreciated for my unsinkable spirit and great sense of humour.",
+        "value": "a"
+      },
+      {
+        "answer": "I've been appreciated for my quiet strength and exceptional generosity.",
+        "value": "b"
+      }
+    ],
+    "category": "IF"
+  },
+  {
+    "question": "36",
+    "answers": [
+      {
+        "answer": "Much of my success has been due to my talent for making a favourable impression.",
+        "value": "a"
+      },
+      {
+        "answer": "Much of my success has been achieved despite my lack of interest in developing \"interpersonal skills.\"",
+        "value": "b"
+      }
+    ],
+    "category": "CH"
+  }
+]

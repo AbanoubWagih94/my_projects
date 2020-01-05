@@ -1,0 +1,65 @@
+<style>
+    @media screen and (max-width: 755px){
+
+    table{
+        width:100%;
+    }
+    table tr {
+        border-bottom: 1px solid deepskyblue;
+        width: 100%;
+    }
+    table tr td{
+        padding: 10px;
+    }
+    legend{
+        color:#2b669a;
+        padding: 10px;
+    }
+    #fir {
+        width:20%; 
+    }
+    #sec {
+        width:95%; 
+        font  :25px bold;
+        margin-left: 50%;
+    }
+    }
+    @media screen and (min-width: 755px){
+        
+    table{
+        width:100%;
+    }
+    table tr {
+        border-bottom: 1px solid deepskyblue;
+        width: 100%;
+    }
+    table tr td{
+        padding: 25px;
+    }
+    legend{
+        color:#2b669a;
+        padding: 20px;
+    }
+    #fir {
+        width:10%; 
+    }
+    #sec {
+        width:90%; 
+        font  :25px bold;
+    }
+    }
+</style>
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<legend style="background-color:deepskyblue; border-radius:9px;"><b>{{pageStatic[lang].title}}</b></legend>
+<table>
+<tr ng-repeat="d in data">
+    <td id="fir"><span style="font :25px bold;"><b>{{$index+1}} <b style="color:deepskyblue;">  |</b></b></span></td>
+    <td><div id="sec"><b>{{d.question}}</b></div></td>
+    <td><input type="checkbox" ng-click="check(d)" ng-model="checked[$index]"></td>
+</tr>
+</table>
+<div class="alert alert-danger fade in" ng-show="failed">
+    <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+    <strong>Error!</strong> Data hasn't been saved!
+</div><br>
+<input type="button" class="btn btn-primary fa" value="&#xf00c; {{siteStatic[lang].submit}}" ng-click="calculateResults()">

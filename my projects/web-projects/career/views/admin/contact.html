@@ -1,0 +1,55 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div class="container-fluid">
+    <div class="search-box-wrapper">
+        <div class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" ng-model="q.fullName" ng-keyup="setFilter(q.fullName)" placeholder="Search by fullName">
+        </div>
+    </div>
+    <div class="alert alert-success fade in" ng-show="success">
+        <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="failed">
+        <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+
+    <div class="alert alert-info fade in" ng-show="operationWait">
+        {{siteStatic[lang].wait}}
+    </div>
+
+    <pre class="alert alert-info" ng-show="!data.length">Ther is no data right now!</pre>
+    <div class="proj-title " ng-repeat="d in data | limitTo:variance:start | filter:q">
+        <span class="pull-left text-left">{{d.fullName}}</span>
+        <input type="button" class="pull-right btn btn-danger fa" value="&#xf1f8; Delete" ng-click="delete(this.d.id, d)">
+        <input type="button" class="pull-right btn btn-primary fa" value="&#xf0e0; Full Message" ng-click="seeMessage(d)">
+        <a class="btn btn-info pull-right">{{timeStamp(d.date) | date:'dd/MM/yyyy'}}</a>
+    </div>
+</div>
+
+ <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>
+
+<div class="hidden-info" ng-hide="hideInfo">
+    <button type="button" class="close text-danger" aria-label="Close" ng-click="hideInfo = true"><span aria-hidden="true">&times;</span></button>
+    <div class="hidden-info-form">
+        <div class="form-group">
+            <label for="title">Full Name:</label>
+            <input class="form-control" id="title" ng-model="subData.fullName" disabled="true">
+        </div>
+        <div class="form-group">
+            <label for="title">Email:</label>
+            <input class="form-control" id="title" ng-model="subData.email" disabled="true">
+        </div>
+        <div class="form-group">
+            <label for="details">Notes:</label>
+            <textarea class="form-control" rows="6" id="details" ng-model="subData.notes" disabled="true"></textarea>
+        </div>
+    </div>
+</div>

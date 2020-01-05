@@ -1,0 +1,173 @@
+<style>
+    @media screen and (max-width: 755px){
+    #val {
+    height:10%; 
+    width:100%; 
+    font-size:20px; 
+    padding: 5%; 
+    border-radius:10px; 
+    border-bottom: 1px solid deepskyblue; 
+    border-width:3px;
+    margin-top: 10%;
+    }
+    #hea {
+      height:auto; 
+      margin-top:-10%; 
+      width:90%; 
+      background-color:deepskyblue; 
+      font-size:20px; 
+      padding:20px; 
+      border-radius:10px; 
+      position:fixed;
+
+    }
+    .ara {
+    	margin-left: 25%;
+    	margin-top: 60px;	
+    }
+    .eng {
+    	margin-left:9%; 
+    	margin-top:60px
+    }
+
+    #sli {
+      width:100%;
+    }
+    .intrar {
+      visibility:visible;
+      padding:1%; 
+      overflow:hidden;
+      border:5px solid deepskyblue;
+      text-align:center;
+      width:70%;
+      border-radius:10px;
+      margin-right:10.5%;
+      margin-top:10%;
+      z-index:0; 
+      position:absolute;
+    }
+    .intren {
+      visibility:visible;
+      padding:1%; 
+      overflow:hidden;
+      border:5px solid deepskyblue;
+      text-align:center;
+      width:70%;
+      margin-left:10.5%;
+      border-radius:10px;
+      margin-top:14%;
+      z-index:0; 
+      position:absolute;
+    }
+    }
+    @media screen and (min-width: 755px){
+    #val {
+      height:10%; 
+      width:100%; 
+      font-size:20px; 
+      padding:30px; 
+      border-radius:10px; 
+      border-bottom: 1px solid deepskyblue; 
+      border-width:3px;
+    }
+    #hea {
+      height:auto; 
+      margin-top:-65px; 
+      width:90%; 
+      background-color:deepskyblue; 
+      font-size:20px; 
+      padding:2%; 
+      border-radius:10px; 
+      position:fixed;
+      
+    }
+    .ara {
+    	margin-left: 37%;
+    	margin-top: 60px;	
+    }
+    .eng {
+    	margin-left:9%; 
+    	margin-top:60px
+    }
+    #sli {
+      width:70%;
+    }
+    .intrar {
+      visibility:visible;
+      padding:1%; 
+      overflow:hidden;
+      border:5px solid deepskyblue;
+      text-align:center;
+      width:70%;
+      border-radius:10px;
+      margin-right:10.5%;
+      margin-top:5%;
+      z-index:0; 
+      position:absolute;
+    }
+    .intren {
+      visibility:visible;
+      padding:1%; 
+      overflow:hidden;
+      border:5px solid deepskyblue;
+      text-align:center;
+      width:70%;
+      margin-left:10.5%;
+      border-radius:10px;
+      margin-top:5%;
+      z-index:0; 
+      position:absolute;
+    }
+    }
+    #sec {
+      width:38%; 
+      margin-left: 2%; 
+      border-left:2px 
+      solid #011728; 
+      padding-left:1%;
+    }
+</style>
+<div>
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+
+<div id="int" ng-class="(lang=='ar')?'intrar':'intren'">
+  <button class="btn btn-info btn-lg pull-right" onclick="rem();"><span class="glyphicon glyphicon-remove" ></span></button>
+  <div id="tex" style="padding: 3%;">
+  <h3>{{pageStatics.intro[lang]}}
+  <ul style="list-style-type:none;">
+  <li>{{pageStatics.fli[lang]}}</li>
+  <li>{{pageStatics.sli[lang]}}</li>
+  <li>{{pageStatics.tli[lang]}}</li>
+  <li>{{pageStatics.foli[lang]}}</li>
+  <li>{{pageStatics.fili[lang]}}</li>
+  <br>
+  <li><b>{{pageStatics.endi[lang]}}<b></li>
+  </ul>
+  </h3>
+  </div>
+</div>
+<div id="con" style="visibility: hidden;position: absolute;">
+<div id = "hea" class="pull-left">
+       <div style="width:60%;" class="pull-left"> <b>{{pageStatics.skillLevel[lang]}}</b></div>
+       <div class="pull-left" id="sec" > <b>{{pageStatics.toExcellence[lang]}}</b> </div>
+</div>
+<div  id ="val" style="" class="pull-left" ng-repeat="d in data">
+       <div style="width:60%;" class="pull-left" > 
+       <div style="border-bottom:2px dotted deepskyblue;"><b>{{$index+1}}<b style="color:deepskyblue;">  | </b> {{d.category}}</b></div>
+       <br>
+       <div style="margin-left:5%;">
+       <span><b>{{d.question}}</b> </span>
+       <br>
+       <input type="range" ng-model="scores[$index]" min="1" max="5" id="sli">
+       <b>{{scores[$index]}}</b>
+       </div>
+       </div>
+       <div ng-class="{ara : lang == 'ar',eng : lang == 'en' }" class="pull-left">
+       <b><input type="checkbox" ng-model="excellence[$index]" ng-disabled="countTrue(excellence) >= 5 && !excellence[$index]"></b> 
+       </div>     
+       
+</div>
+<br>
+<input type="button" class="btn btn-primary fa" value="&#xf00c; {{siteStatic[lang].submit}}" ng-click="calculateResults()" ng-disabled="countTrue(excellence) < 5">
+</div>
+</div>

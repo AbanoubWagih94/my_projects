@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html lang="ar">
+<head>
+    <title>Career Doctor</title>
+
+    <!--Meta Tags-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    <!--Boot Strap-->
+    <link href='css/gloria.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Custom CSS-->
+
+
+    <!--Angular-->
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular-route/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+
+    <!--ngFileUpload-->
+    <script src="js/ng-file-upload/dist/ng-file-upload-shim.min.js"></script> <!-- for no html5 browsers support -->
+    <script src="js/ng-file-upload/dist/ng-file-upload.min.js"></script>
+
+    <!--jQuery-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script>
+    var app = angular.module("test", ['ngFileUpload','ngAnimate']);
+    app.controller("cont", function($scope, Api){
+       /* $scope.uploaded = 0;
+        $scope.hideUploader = true;
+        $scope.subData = {};
+        
+        $scope.uploadAnswer = function(file){
+            $scope.hideUploader = false;
+            Api.uploadMedia('php/adminApi.php', file).then(
+                function(d){
+                    if(d.statusText.toLowerCase() == 'ok')
+                    {
+                        $scope.subData.answer = d.data;
+                        $scope.hideUploader = true;
+                    }
+                },function(e){
+                    console.log(e);
+                },
+                function(ev){
+                    $scope.uploaded = (ev.loaded/ev.total) * 100;
+                }
+            );
+            
+        };
+        */
+       $scope.data = [
+                      {name:"a",title:"x"},
+                      {name:"b",title:"x"},
+                      {name:"c",title:"x"},
+                      {name:"d",title:"x"},
+                      {name:"aa",title:"x"},
+                      {name:"ad",title:"x"},
+                      {name:"ax",title:"x"},
+                      {name:"sa",title:"x"},
+                      {name:"sa",title:"x"},
+                      {name:"sa",title:"x"},
+                      {name:"sa",title:"x"},
+                      {name:"sa",title:"x"},
+                      {name:"acc",title:"x"},
+                      {name:"add",title:"x"},
+                      ];
+       /*pagination*/
+        $scope.math = window.Math;
+        $scope.start = 0;
+        $scope.variance = 5;
+        var varianceCopy = 5;
+        
+        $scope.changeStart = function(change){
+         if(change === "add"){
+            if($scope.start + $scope.variance <= $scope.data.length){
+                 $scope.start += $scope.variance;
+            }
+         }else{
+            if($scope.start - $scope.variance >= 0){
+                 $scope.start -= $scope.variance;
+            } 
+         }
+         };
+         
+         $scope.setFilter = function (q){
+             if(q.length)
+             {
+                 $scope.variance = $scope.data.length;
+                 $scope.start = 0;
+             }else{
+                 $scope.variance = varianceCopy;
+             }
+         };
+        /*end pagination*/
+        $scope.s = function(d){
+            var ind = $scope.data.indexOf(d);
+            $scope.data.splice(ind, 1);
+        };
+        });
+    </script>
+    <style>
+.ng-animate.ng-leave{
+    max-height:50px;
+    transition: all 0.5s;
+}
+.ng-animate.ng-leave-active{
+    max-height:0;
+}
+.ng-animate.ng-enter{
+    position: absolute;
+    bottom: -200px;
+    transition: all 1s;
+}
+.ng-animate.ng-enter-active{
+    bottom: 0;
+    position: relative;
+
+}
+
+
+div.search-box-wrapper{
+    width:100%;
+    height: 80px;
+    margin-bottom: 50px;
+}
+div.search-box{
+    width:220px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    margin: auto auto;
+    top:50px;
+    border:3px solid deepskyblue;
+    border-radius: 7px;
+    padding: 15px
+}
+div.search-box input[type=text]{
+    position: absolute;
+    width:180px;
+    height: 25px;
+    top:calc(50% - 12.5px);
+    right: 0;
+    border:0;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    border-radius: 7px;
+}
+div.search-box i.fa.fa-search{
+    position: absolute;
+    font-size:1.2em;
+    left: 3px;
+    top:calc(50% - 12.5px);
+}
+div.pagination-wrapper{
+    width:15%;
+}
+div.pagination-wrapper i.pagination-pages{
+    position: absolute;
+    left: calc(50% - 8px);
+}
+</style>
+
+</head>
+<body ng-app="test" ng-controller="cont">
+<!-- <div class="progress" ng-hide="hideUploader">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{uploaded}}%;">
+    {{uploaded}}%
+  </div>
+</div>
+ <audio ng-src="{{'sounds/'+subData.answer}}" controls ng-show="subData.answer"></audio>
+ <br>
+ <button type="file"
+    ngf-select="uploadAnswer($file, $invalidFiles)"
+    accept="audio/mpeg"
+    class="btn btn-info fa">
+    &#xf093; Upload Answer
+ </button>
+ -->
+<div class="search-box-wrapper">
+    <div class="search-box">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" ng-model="q.name" ng-keyup="setFilter(q.name)" placeholder="Search by name">
+    </div>
+</div>
+ <div ng-repeat="d in data | limitTo:variance:start | filter:q" ng-animate>
+    <div>{{d}} <input type="button" ng-click="s(d)"></div>
+ <div ng-if="d.length == 0">No data found</div>
+ </div>
+ <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>
+
+<script src="js/services/api.js"></script>
+</body>
+</html>

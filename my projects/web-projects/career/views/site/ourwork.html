@@ -1,0 +1,16 @@
+<div  id="A" class="container-fluid">
+	<h1 class='center-text title'>{{siteStatic[lang].ourWork | uppercase}}</h1>
+	<div  id="linep"></div><br>
+	<div class="project-container center-block">
+		<p class='center-text center-block p'>{{data.description}}</p>
+	</div>
+    <div class="container-fluid project-container"center-block ng-repeat="d in data.data">
+		<img ng-src="{{imgUrl+d.img}}" width="300" height="300" class="img-responsive center-block">
+		<div>
+			<h3 class="title">{{d.title}}</h3>
+			<p class="p">{{d.details}}</p>
+		</div>
+		<hr style="color:black">
+	</div>
+
+</div>

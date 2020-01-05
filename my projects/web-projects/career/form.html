@@ -1,0 +1,184 @@
+<html>
+<head>
+   <!--Meta Tags-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    <!--Boot Strap-->
+    <link href='css/gloria.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/user.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <!--Icons--> 
+    <link rel="shortcut icon" href="images/fev-icon.jpg">    
+    <link rel="icon" href="images/fev-icon.jpg">
+    
+    <!--Angular-->
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular-route/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+
+    <!--ngFileUpload-->
+    <script src="js/ng-file-upload/dist/ng-file-upload-shim.min.js"></script> <!-- for no html5 browsers support -->
+    <script src="js/ng-file-upload/dist/ng-file-upload.min.js"></script>
+
+    <!--jQuery-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <!--App core-->
+    <script src="js/core/userCore.js"></script>
+  <style type="text/css">
+    #na {
+      margin-top: 110px;
+    }
+    .bo {
+      font-weight: bold;
+    } 
+    table {
+      margin-left: 50px;
+    }
+    td {
+      padding: 1px;
+    }
+    legend {
+      margin-left: 20px;
+    }
+    .back{
+      opacity: 3;
+    }
+  </style>
+</head>
+<body class="container-fluid">
+
+<!--Header-->
+<img src="images/career1.png" style="width:130px; height:120px;" class="pull-left">
+<h4 id="na"><b>Dr Eman Muhammad Abd Al-Aziz</b></h4>
+<div style="height:4px; width:100%; background-color:black;"><h6 style="color:white;">.<h6></div>
+
+<!--UserData-->
+<div style="width:90%; border-bottom:3px solid black;  margin-left:2%;"><h4> Personal info: </h4></div>
+<table>
+  <tr>
+    <td>
+      <h5 class="bo"> Name: </h5>
+    </td>
+    <td>
+      <h5>{{subData.name}}</h5>
+    </td>
+  </tr>
+    <tr>
+    <td>
+      <h5 class="bo"> Phone: </h5>
+    </td>
+    <td>
+      <h5>{{contacts.phone}}</h5>
+    </td>
+  </tr>
+    <tr>
+    <td>
+      <h5 class="bo"> Mail: </h5>
+    </td>
+    <td>
+      <h5>{{contacts.mail}}</h5>
+    </td>
+  </tr>
+</table>
+
+<!--MBTI-->
+<div style="width:90%; border-bottom:3px solid black;  margin-left:2%;"><h4> MBTI Result: </h4></div>
+  <ul style="margin-left:30px; ">
+      <li><h5><b><span class="small"><a target="_blank" href="assessment-results/mbti-results/{{subData.mbti}}-{{lang}}.pdf">{{subData.mbti}}</a> Type</span></b></h5></li>
+  </ul>
+
+<!--Holland-->
+<div style="width:90%; border-bottom:3px solid black;  margin-left:2%;"><h4> Holland's Code Result: </h4></div>
+<h5 style="text-decoration: underline; margin-left:50px;">
+<b> {{subData.name}} has the following personality keys: </b>
+</h5>
+<ul style="margin-left:90px;">
+  <span ng-hide="subData.holland.length">None</span>
+            <ul class="flexable" ng-show="subData.holland.length">
+                <li ng-repeat="d in subData.holland">{{d}}</li>
+            </ul>
+</ul>
+<br><br><br><br><br><br>
+
+<!--Enneagram-->
+<div style="width:90%; border-bottom:3px solid black;  margin-left:2%;"><h4> Enneagram Result: </h4></div>
+  <ul style="margin-left:30px; ">
+  <li><h5><b> :<span class="small"><a target="_blank" href="assessment-results/enneagram-results/{{subData.enneagram}}-{{lang}}.pdf">{{subData.enneagram}}</a> Type</span> </b></h5></li>
+  </ul>
+
+<!--Skills-->
+<div style="width:90%; border-bottom:3px solid black;  margin-left:2%;"><h4> Skills test Result: </h4></div>
+<h5 style="text-decoration: underline; margin-left:50px;">
+<b> {{subData.name}} has the following scores: </b>
+</h5>
+ <span ng-hide="subData.skills.data.length">None</span>
+            <ul class="flexable border" ng-show="subData.skills.data.length">
+                <li ng-repeat="d in subData.skills.data">
+                    <span>{{d.question}} : {{d.score}}</span>
+                </li>
+            </ul>
+<br><br>
+<h5 style="text-decoration: underline; margin-left:50px;"> 
+<b> {{subData.name}} is excellent in: </b>
+</h5>
+ <span ng-hide="subData.skills.excellent.length">None</span>
+            <ul class="flexable border" ng-show="subData.skills.excellent.length">
+                <li ng-repeat="d in subData.skills.excellent">
+                    <span>{{d.question}} : {{d.score}}</span>
+                </li>
+            </ul>
+<br><br>
+<h5 style="text-decoration: underline; margin-left:50px;">
+<b> {{subData.name}} need to improve </b>
+</h5>
+<span ng-hide="subData.skills.improve.length">None</span>
+            <ul class="flexable border" ng-show="subData.skills.improve.length">
+                <li ng-repeat="d in subData.skills.improve">
+                    <span>{{d.question}} : {{d.score}}</span>
+                </li>
+            </ul>
+  <br> <br>
+
+<!--Values-->
+<div style="width:90%; border-bottom:3px solid black;  margin-left:2%;"><h4> Values Result: </h4></div>
+<h5 style="text-decoration: underline; margin-left:50px;">
+<b> Values thats {{subData.name}} Choosed </b>
+</h5>
+<span ng-hide="subData.value.length">None</span>
+            <ul class="flexable border" ng-show="subData.value.length">
+                <li ng-repeat="v in subData.value">
+                    <span>{{v.value}} : {{v.score}}</span>
+                </li>
+            </ul>
+<img src="images/career_lo.png" style="position:relative; margin-top:-100%;">
+    
+    
+    
+      <!--Controllers-->
+    <script src="js/controllers/user/mbti.js"></script>
+    <script src="js/controllers/user/mbti-results.js"></script>
+    <script src="js/controllers/user/holland.js"></script>
+    <script src="js/controllers/user/enneagram.js"></script>
+    <script src="js/controllers/user/enneagram-results.js"></script>
+    <script src="js/controllers/user/skills.js"></script>
+    <script src="js/controllers/user/values.js"></script>
+    <script src="js/controllers/user/user.js"></script>
+    <script src="js/controllers/user/lectures.js"></script>
+    <script src="js/controllers/user/consulting.js"></script>
+    <script src="js/controllers/user/home.js"></script>
+    <!--Services-->
+    <script src="js/services/helper.js"></script>
+    <script src="js/services/api.js"></script>
+    <script src="js/services/holland-helper.js"></script>
+    <script src="js/services/signup-err.js"></script>
+</body>
+</html>

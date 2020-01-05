@@ -1,0 +1,72 @@
+/* Front Style */
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+body{
+    padding-top: 54px;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    background: url("/assets/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+    color: white;
+    text-shadow: black 0.3em 0.3em .5em;
+}
+.navbar{
+    background-color: #4A5678 !important;
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+.card{
+    height: 100%;
+}
+
+#register {
+    margin: 50px;
+}
+
+/* Cart Page*/
+.cart-items table td{
+    color: #666;
+    font-size: 15px;
+}
+
+.cart-items table td a {
+    color: red;
+    font-size: 13px;
+    color: #555;
+}
+
+.cart-items .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+/* Checkout */
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.StripeElement--focus {
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}

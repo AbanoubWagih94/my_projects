@@ -1,0 +1,56 @@
+
+<div class="container-fluid">
+    <div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+    <form role="form">
+    <div class="form-group">
+        <label for="slogan">Slogan:</label>
+        <input type="text" class="form-control" id="slogan" placeholder="Enter slogan" ng-model="data.slogan" >
+        <br>
+        <label for="sloganTitle">Slogan title:</label>
+        <input type="text" class="form-control" id="sloganTitle" placeholder="Enter slogan title" ng-model="data.sloganTitle" >
+        <br>
+        <label >Cover:</label>
+        <div style="width: 600px; height: 400px; position: relative; overflow: hidden">
+            <img ng-show="imgUpload" ng-src="{{imgBaseUrl+'/loading.gif'}}" class="img-responsive" width="600" height="400">
+            <img ng-hide="imgUpload" ng-src="{{imgBaseUrl + data.cover}}" alt="object image" class="img-responsive" width="600" height="400">
+        </div>
+        <button type="file"
+                ngf-select="updateImg($file, $invalidFiles)"
+                accept="image/*"
+                class="btn btn-info fa"
+        >&#xf03e; Edit image</button>
+        <hr>
+        <div class="form-group" ng-repeat="d in data.services">
+            <fieldset>
+                <legend>{{d.title}}</legend>
+                <label for="serviceName">service name:</label>
+                <input type="text" class="form-control" id="serviceName" placeholder="Enter service name" ng-model="d.title" >
+                <br>
+                <label for="projectDetail">service details:</label>
+                <textarea class="form-control" id="projectDetail" cols="40" rows="10" placeholder="Enter project details"  ng-model="d.details"></textarea>
+                <br>
+            </fieldset>
+        </div>
+        <hr>
+        <label for="projectDetails">About:</label>
+        <textarea class="form-control" id="projectDetails" cols="40" rows="10" placeholder="Enter project details" style="width:44%;"ng-model="data.about"></textarea><br>
+
+
+        <div class="alert alert-success fade in" ng-show="success">
+            <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+            <strong>Success!</strong> Data has been saved!
+        </div>
+
+        <div class="alert alert-danger fade in" ng-show="failed">
+            <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+            <strong>Error!</strong> Data hasn't been saved!
+        </div>
+        <div class="alert alert-info fade in" ng-show="operationWait">
+            {{siteStatic[lang].wait}}
+        </div>
+        <br>
+        <input type="button" class="pull-right btn btn-success fa" value="&#xf0c7; Save changes" ng-click="save()">
+        <br>
+
+</form>
+</div>

@@ -1,0 +1,982 @@
+[
+  {
+    "question": "عندما يطرق جرس باب المنزل:",
+    "answers": [
+      {
+        "answer": "تسرع لكي تجيب",
+        "value": "a"
+      },
+      {
+        "answer": "تتركه ليجيب عليه شخص اخر",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "أثناء إنتظارى فى الطابور ، فى كثير من الأحيان:",
+    "answers": [
+      {
+        "answer": "أتحدث مع الآخرين",
+        "value": "a"
+      },
+      {
+        "answer": "استمر فى تأدية بعض المهام",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "فى الحفلات واللقاءات:",
+    "answers": [
+      {
+        "answer": "أتفاعل مع العديد من الأشخاص حتى اولئك اللذين لا أعرفهم",
+        "value": "a"
+      },
+      {
+        "answer": "‌أتفاعل مع بعض الأصدقاء",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "هل الإحتكاكات الجديدة و الغير نمطية مع الاخرين:",
+    "answers": [
+      {
+        "answer": "‌تحفزك وتبث فيك روح الطاقة والنشاط",
+        "value": "a"
+      },
+      {
+        "answer": "تزيد من تحفظك",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "فى المناسبات:",
+    "answers": [
+      {
+        "answer": "أبقى لوقت متأخر وتكون طاقتى عالية",
+        "value": "a"
+      },
+      {
+        "answer": "أغادر مبكرا وتكون طاقتى منخفضة",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "تميل أكثر أن تكون شخص:",
+    "answers": [
+      {
+        "answer": "يسهل التقرب منه ",
+        "value": "a"
+      },
+      {
+        "answer": "متحفظ الي حد ما يصعب التقرب منه ",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "هل تفضل:",
+    "answers": [
+      {
+        "answer": "صداقات عديدة ذات تواصل محدود",
+        "value": "a"
+      },
+      {
+        "answer": "صداقات محدودة ذات تواصل دائم مستمر",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "فى العمل ,تميل أكثر لأن تكون:",
+    "answers": [
+      {
+        "answer": "إجتماعى أكثر مع زملاءك",
+        "value": "a"
+      },
+      {
+        "answer": "متحفظ أكثر",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "هل تعتبر نفسك:",
+    "answers": [
+      {
+        "answer": "متحدث جيد",
+        "value": "a"
+      },
+      {
+        "answer": "مستمع جيد",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "غالباً ما :",
+    "answers": [
+      {
+        "answer": "تبادر بالحديث",
+        "value": "a"
+      },
+      {
+        "answer": "تتنتظر إلى أن يتم التحدث لك",
+        "value": "b"
+      }
+    ],
+    "category": "EI"
+  },
+  {
+    "question": "هل تميل أن تكون:",
+    "answers": [
+      {
+        "answer": "لماح ، وسريع الملاحظة",
+        "value": "a"
+      },
+      {
+        "answer": "عميق أكثر",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "الأصعب عندى:",
+    "answers": [
+      {
+        "answer": "أن أجدنى أسبح فى خيالى وكأننى فوق السحاب",
+        "value": "a"
+      },
+      {
+        "answer": "أن أكون شخص عالق لا يتحرك للأمام",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "أنجذب أكثر تجاه:",
+    "answers": [
+      {
+        "answer": "الأشخاص الحساسين",
+        "value": "a"
+      },
+      {
+        "answer": "الأشخاص الخياليين",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "أهتم أكثر:",
+    "answers": [
+      {
+        "answer": "بما هو واقعى",
+        "value": "a"
+      },
+      {
+        "answer": "بما هو ممكن",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "عموما اعتقد أننى:",
+    "answers": [
+      {
+        "answer": "واقعي أكثر من خيالي ",
+        "value": "a"
+      },
+      {
+        "answer": "‌خيالى أكثر من واقعي",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "أحب المؤلفين والكتاب اللذين:",
+    "answers": [
+      {
+        "answer": "يفصحون مباشرة عما يقصدون ",
+        "value": "a"
+      },
+      {
+        "answer": "يستخدمون الرمزية والمجازية ",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "الحقائق:",
+    "answers": [
+      {
+        "answer": "تعبر عن نفسها",
+        "value": "a"
+      },
+      {
+        "answer": "(تشير إلى المبادئ (مثلا : التفاحة عندما تسقط تعبر عن مبدأ الجاذبية ",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "أجد أصحاب الرؤى البعيدة والنظريات:",
+    "answers": [
+      {
+        "answer": "مزعجين إلى حد ما",
+        "value": "a"
+      },
+      {
+        "answer": "مبدعين ورائعين",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "الأشياء المتفق عليها بين الناس:",
+    "answers": [
+      {
+        "answer": "جديرة بالثقة والأخذ بها",
+        "value": "a"
+      },
+      {
+        "answer": "‌تحتاج إلى مساءلة",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "فى غالب الأحيان ، الأطفال:",
+    "answers": [
+      {
+        "answer": "‌لا يستغلون حياتهم بكيفية أكبر",
+        "value": "a"
+      },
+      {
+        "answer": "لا يستعملون خيالاتهم بشكل كافي",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "هل انت عادة شخص:",
+    "answers": [
+      {
+        "answer": "عملي",
+        "value": "a"
+      },
+      {
+        "answer": "حالم",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "فى الغالب:",
+    "answers": [
+      {
+        "answer": "أحب الحديث أكثر عن الأشياء الخاصة بدلا من العامة",
+        "value": "a"
+      },
+      {
+        "answer": "أحب الحديث عن الأشياء العامة بدلا من الخاصة",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "أجدنى أميل إلى الأخذ بما قيل:",
+    "answers": [
+      {
+        "answer": "حرفياَ",
+        "value": "a"
+      },
+      {
+        "answer": "على نحو استعارى أى ما قد يرمز إليه بطريقة غير مباشرة",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "غالباَ تأخذ بعين الإعتبار أكثر:",
+    "answers": [
+      {
+        "answer": "ما هو أمامك بالفعل",
+        "value": "a"
+      },
+      {
+        "answer": "ما يمكن تخيله",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "هل تثق أكثر في:",
+    "answers": [
+      {
+        "answer": "‌خبرتك",
+        "value": "a"
+      },
+      {
+        "answer": "حدسك",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "هل تنجذب أكثر إلي:",
+    "answers": [
+      {
+        "answer": "‌الأسس",
+        "value": "a"
+      },
+      {
+        "answer": "الإيحاءات",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "ما الذي تراه اقوى في شخصيتك:",
+    "answers": [
+      {
+        "answer": "الإدراك العالى للواقع",
+        "value": "a"
+      },
+      {
+        "answer": "الخيال الواسع",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "عادة أثق:",
+    "answers": [
+      {
+        "answer": "‌بتجاربى",
+        "value": "a"
+      },
+      {
+        "answer": "أحاسيسي",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "هل تفضل في الاعمال الادبية:",
+    "answers": [
+      {
+        "answer": "الأعمال الاكثر واقعية",
+        "value": "a"
+      },
+      {
+        "answer": "أعمال الخيال والبطولات",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "الأسهل عندى أن:",
+    "answers": [
+      {
+        "answer": "أضع الأشخاص فى الأماكن والمهام التى يكونون فيها أكثر إنتاجية",
+        "value": "a"
+      },
+      {
+        "answer": "أساير الجماعة",
+        "value": "b"
+      }
+    ],
+    "category": "SN"
+  },
+  {
+    "question": "فى تعاملاتى مع الآخرين ، عادة ما أكون:",
+    "answers": [
+      {
+        "answer": "حازم أكثر من كونى لطيفاً",
+        "value": "a"
+      },
+      {
+        "answer": "لطيفاً أكثر من كونى حازما",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "يؤثرنى أكثر:",
+    "answers": [
+      {
+        "answer": "الإقناع بالأدلة",
+        "value": "a"
+      },
+      {
+        "answer": "النداء العاطفى",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أي شخص يستحق الإطراء اكثر الذي لديه:",
+    "answers": [
+      {
+        "answer": "سبب واضح",
+        "value": "a"
+      },
+      {
+        "answer": "إحساس قوي",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أثناء تفاعلى مع الآخرين أميل الى أن اكون شخص:",
+    "answers": [
+      {
+        "answer": "موضوعى غير شخصي",
+        "value": "a"
+      },
+      {
+        "answer": "ودود وشخصى",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "يجذبنى اكثر:",
+    "answers": [
+      {
+        "answer": "توافق الأفكار",
+        "value": "a"
+      },
+      {
+        "answer": "الإنسجام فى العلاقات",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "إذا كان يجب عليك مواجهة شخص ما بما يكره ،هل أنت عادة:",
+    "answers": [
+      {
+        "answer": "تكون صريح ومباشر",
+        "value": "a"
+      },
+      {
+        "answer": "تكون رقيق مستخدماً عبارات لطيفة",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أيهما اكثر ارضاءا لك:",
+    "answers": [
+      {
+        "answer": "أن تناقش قضية ما بالتفصيل",
+        "value": "a"
+      },
+      {
+        "answer": "أن تصل الي توافق حول قضية ما",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "هل تميل أكثر إلى ان تكون:",
+    "answers": [
+      {
+        "answer": "منصف",
+        "value": "a"
+      },
+      {
+        "answer": "عطوفاً",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "عندما أكون مسئولا عن الآخرين:",
+    "answers": [
+      {
+        "answer": "أكون حازما وغير قابل للمناقشة",
+        "value": "a"
+      },
+      {
+        "answer": "أكون مسامحا ولينا معهم",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "هل تري نفسك في المقام الاول:",
+    "answers": [
+      {
+        "answer": "شخص ذو قدرة عالية على التحدى",
+        "value": "a"
+      },
+      {
+        "answer": "رقيق القلب",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أي العبارتين تعد إطراء بنسبة أكبر:",
+    "answers": [
+      {
+        "answer": "'هذا شخص عقلاني'",
+        "value": "a"
+      },
+      {
+        "answer": "'هذا شخص عاطفي'",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أفعالك يقودها:",
+    "answers": [
+      {
+        "answer": "عقلك",
+        "value": "a"
+      },
+      {
+        "answer": "‌قلبك",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أيهما يعتبر خطأ اكبر:",
+    "answers": [
+      {
+        "answer": "أن تكون متحمس أكثر من اللازم",
+        "value": "a"
+      },
+      {
+        "answer": "أن تكون موضوعي أكثر من اللازم",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أثناء تعاملك مع الظروف ,تجد نفسك أحياناً:",
+    "answers": [
+      {
+        "answer": "غير متعاطف على الإطلاق",
+        "value": "a"
+      },
+      {
+        "answer": "متعاطف جداً",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "تعتقد أنك شخص",
+    "answers": [
+      {
+        "answer": "عقلانى عملى",
+        "value": "a"
+      },
+      {
+        "answer": "عطوف حان",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "هل تقدر في نفسك اكثر انك:",
+    "answers": [
+      {
+        "answer": "منطقى غير متردد",
+        "value": "a"
+      },
+      {
+        "answer": "أمين ومخلص",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "اكبر الخطأ عندى هو أن يكون الشخص:",
+    "answers": [
+      {
+        "answer": "رحيم جداً",
+        "value": "a"
+      },
+      {
+        "answer": "قاس جداً",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أنت تميل أكثر إلى:",
+    "answers": [
+      {
+        "answer": "الأدلة المقنعة",
+        "value": "a"
+      },
+      {
+        "answer": "النداء المؤثر",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "ما أريده لنفسي:",
+    "answers": [
+      {
+        "answer": "قوة العزيمة",
+        "value": "a"
+      },
+      {
+        "answer": "قوة العاطفة",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "أرى أننى:",
+    "answers": [
+      {
+        "answer": "أتحمل الإنتقادات السلبية ",
+        "value": "a"
+      },
+      {
+        "answer": "لا أستطيع أن اتحمل الإنتقادات السلبي",
+        "value": "b"
+      }
+    ],
+    "category": "TF"
+  },
+  {
+    "question": "فى حالة وجود فوضي بمكان العمل:",
+    "answers": [
+      {
+        "answer": "أقضي بعض الوقت فى تنظيمه",
+        "value": "a"
+      },
+      {
+        "answer": "اتأقلم بشكل جيد",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "فى أغلب المواقف أحب:",
+    "answers": [
+      {
+        "answer": "الأمور المدروسة بحرص",
+        "value": "a"
+      },
+      {
+        "answer": "الأمور العفوية",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "بخصوص العقود تفضل أن :",
+    "answers": [
+      {
+        "answer": "يتم توقيعها ،ختمها وتسليمها",
+        "value": "a"
+      },
+      {
+        "answer": "يتم الإتفاق عليها",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل تحس بالإرتياح أكثر:",
+    "answers": [
+      {
+        "answer": "عندما تنتهى من مهمة ما",
+        "value": "a"
+      },
+      {
+        "answer": "أثناء إحراز تقدم بمهمة ما",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل تفضل الأحداث عندما تكون:",
+    "answers": [
+      {
+        "answer": "مخطط لها ضمن جدول زمنى ",
+        "value": "a"
+      },
+      {
+        "answer": "غير مخطط لها",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "أشعر بأننى أفضل عندما :",
+    "answers": [
+      {
+        "answer": "أنتهى من مهمة ما",
+        "value": "a"
+      },
+      {
+        "answer": "تظل إختياراتى مفتوحة",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "فى العمل , من الطبيعى لديك أن:",
+    "answers": [
+      {
+        "answer": "تشير إلى الأخطاء",
+        "value": "a"
+      },
+      {
+        "answer": "تحاول إسعاد الآخرين",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل تكون مطمئن أكثر:",
+    "answers": [
+      {
+        "answer": "بعد إتخاذ القرار",
+        "value": "a"
+      },
+      {
+        "answer": "قبل إتخاذ القرار",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "تميل أكثر إلى:",
+    "answers": [
+      {
+        "answer": "تنظيم الأشياء",
+        "value": "a"
+      },
+      {
+        "answer": "إكتشاف البدائل",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "بأغلب المواقف , تكون:",
+    "answers": [
+      {
+        "answer": "متأن أكثرمن تلقائي",
+        "value": "a"
+      },
+      {
+        "answer": "تلقائي أكثر من متأن",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "عندما أنتهى من عمل، أحب:",
+    "answers": [
+      {
+        "answer": "أن أراجع للتأكد من أن كل شئ على ما يرام",
+        "value": "a"
+      },
+      {
+        "answer": "أنتقل إلى عمل آخر",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل تفضل العمل:",
+    "answers": [
+      {
+        "answer": "وفق مواعيد تسليم محددة",
+        "value": "a"
+      },
+      {
+        "answer": "بدون مواعيد محددة",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "عندما أختار ،أختار",
+    "answers": [
+      {
+        "answer": "بدقة متناهية",
+        "value": "a"
+      },
+      {
+        "answer": "بإندفاع",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل تميل إلى أن تكون:",
+    "answers": [
+      {
+        "answer": "متعجل أكثر",
+        "value": "a"
+      },
+      {
+        "answer": "متمهل أكثر",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل ترى أنه من الأفضل أن:",
+    "answers": [
+      {
+        "answer": "تتأكد أن الأمور تتم بترتيب",
+        "value": "a"
+      },
+      {
+        "answer": "فقط تترك الأمور تسير",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "هل من المفضل أكثر لديك:",
+    "answers": [
+      {
+        "answer": "القدرة علي التنظيم والمنهجي",
+        "value": "a"
+      },
+      {
+        "answer": "القدرة علي التكيف والتأقلم",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "تفضل أكثر:",
+    "answers": [
+      {
+        "answer": "العبارات والجمل النهائية",
+        "value": "a"
+      },
+      {
+        "answer": "العبارات الإفتتاحية",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "غالباً تفضل أن تكون الأمور:",
+    "answers": [
+      {
+        "answer": "استقرت وقررت",
+        "value": "a"
+      },
+      {
+        "answer": "مبدئية فقط",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "تميل أكثر لملاحظة:",
+    "answers": [
+      {
+        "answer": "عدم النظام",
+        "value": "a"
+      },
+      {
+        "answer": "فرص التغيير",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  },
+  {
+    "question": "أعرف أننى أكثر ميلا إلى:",
+    "answers": [
+      {
+        "answer": "الروتين منى إلى التقلب فى الأشياء",
+        "value": "a"
+      },
+      {
+        "answer": "التنوع فى الأشياء منى إلى الروتين",
+        "value": "b"
+      }
+    ],
+    "category": "JP"
+  }
+]

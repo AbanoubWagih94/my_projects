@@ -1,0 +1,67 @@
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+#filter-term {
+    height:45px;
+    border-width: 0px 0px 2px 0px;
+    box-shadow: 0px 0px 0px 0px ;
+    width:96%;
+    background-color:#e3e3e3;
+    font-size:20;
+}
+#filter-action {
+    height:45px; 
+    margin-left:-1px; 
+    border-width: 0px 0px 2px 0px;
+    background-color:#e3e3e3;
+}
+.coupon-image {
+    width: 85%;
+}
+.content-item {
+    padding:0px 0px 0px 25px;
+}
+.bottom-left {
+    width:85%;
+    position: absolute;
+    bottom: 8px;
+    left: 12%;
+    color:white;
+    font-size: 20;
+    text-align: left;
+}
+.content-item_left {
+    width:70%; 
+    height:80px; 
+    background-color:whitesmoke; 
+    padding:3; 
+    padding-left:10; 
+    float:left
+}
+.content-item_right {
+    width:30%; 
+    height:80px;
+    background-color:#c0272c; 
+    color:white; 
+    float:left;
+}
+.content-item_footer {
+    width:85%;
+    text-align: left;
+    margin: -1.5em auto;
+    display: block;
+    box-shadow: 0px 3.1em 5px -2px gray;
+}
+.items {
+    margin-top: -40px;
+}
+
+.vendor {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px;
+    text-align: center;
+    padding: 15px;
+}

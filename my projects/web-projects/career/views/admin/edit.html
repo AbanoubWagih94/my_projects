@@ -1,0 +1,58 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div class="form-group" style="border-bottom: 2px solid #2e6da4; padding-bottom: 20px">
+    <label for="desc">Description:</label>
+    <textarea class="form-control" id="desc" cols="40" rows="10" ng-model="data.description">Enter description</textarea>
+</div>
+
+<div class="hidden-info" ng-hide="hideInfo">
+    <button type="button" class="close text-danger" aria-label="Close" ng-click="hideInfo = true"><span aria-hidden="true">&times;</span></button>
+    <div class="hidden-info-form">
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input class="form-control" id="title" placeholder="Write the object title." ng-model="subData.title">
+        </div>
+        <div class="form-group">
+            <label for="details">Details:</label>
+            <textarea class="form-control" rows="6" id="details" placeholder="Write the object details." ng-model="subData.details"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="details">Image:</label>
+            <div style="width: 200px; width: 200px; position: relative;">
+                <img ng-show="imgUpload" ng-src="{{imgBaseUrl+'/loading.gif'}}" class="img-thumbnail img-responsive" width="200" height="200">
+                <img ng-hide="imgUpload" ng-src="{{imgBaseUrl + subData.img}}" alt="object image" class="img-thumbnail img-responsive" width="200" height="200">
+            </div>
+            <br><br>
+            <button type="file"
+                    ngf-select="updateImg($file, $invalidFiles)"
+                    accept="image/*"
+                    class="btn btn-info fa"
+            >&#xf03e; New image</button>
+        </div>
+        <input type="button" class="clearfix btn btn-success fa pull-right" value="&#xf00c; Ok" ng-click="addNew()">
+    </div>
+</div>
+<div class="container-fluid">
+
+    <div class="alert alert-success fade in" ng-show="success">
+        <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="failed">
+        <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+    <div class="alert alert-info fade in" ng-show="operationWait">
+        {{siteStatic[lang].wait}}
+    </div>
+    <pre class="alert alert-info" ng-show="!data.data.length">Ther is no data right now!</pre>
+    <div class="proj-title " ng-repeat="d in data.data">
+        <span class="pull-left text-left">{{d.title}}</span>
+        <input type="button" class="pull-right btn btn-primary fa" value="&#xf044; Edit" ng-click="edit($index)">
+        <input type="button" class="pull-right btn btn-danger fa" value="&#xf1f8; Delete" ng-click="delete($index)">
+    </div>
+    <br>
+    <input type="button" class="pull-left btn btn-primary fa" value="&#xf067;  Add new" ng-click="hideInfo = false; subData = null; addMode=true">
+    <input type="button" class="pull-right btn btn-danger fa" value="&#xf05e; Cancel" ng-click="cancel()">
+    <input type="button" class="pull-right btn btn-success fa" value="&#xf0c7; Save changes" ng-click="save()">
+</div>

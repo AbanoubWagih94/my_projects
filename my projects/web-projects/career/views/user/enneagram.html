@@ -1,0 +1,34 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div style="padding: 10px !important">
+<p style="background-color:deepskyblue; font-size:18px; padding: 10px; border-width:2px; border-radius:7px;">
+     <b>
+     {{pageStatic[lang].intro}}  <br>
+     {{pageStatic[lang].introo}}
+     </b>
+</p>
+<div ng-repeat="d in data" style="border-bottom: 1px solid deepskyblue;padding: 10px 5px 10px 5px;">
+    <br>
+    <table>
+    <tr>	
+    <td style="padding-top:3%; vertical-align:center;"><p style="font-size:30px;"><b>{{d.question}} 
+    <b style="color:deepskyblue; ">  | </b>
+    </b></p></td>
+    <td style="padding:50px;">
+    <div>
+        <input type="radio" name="{{d.question}}" ng-value="d.category[0]" ng-model="cat[$index]"><b style="font-size:17px;">		{{d.answers[0].answer}}</b>
+    </div>
+    <br>
+    <div>
+        <input type="radio" name="{{d.question}}" ng-value="d.category[1]" ng-model="cat[$index]"><b style="font-size:17px;">   	{{d.answers[1].answer}}</b>
+    </div>
+    </td>
+    <tr>
+    </table>
+</div>
+<div class="alert alert-danger fade in" ng-show="failed">
+    <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+    <strong>Error!</strong> Data hasn't been saved!
+</div><br>
+{{countTrue(cat)}}
+<input type="button" class="btn btn-primary fa" value="&#xf00c; {{siteStatic[lang].submit}}" ng-click="calculateResults()" ng-disabled="countTrue(cat) < data.length">
+</div>

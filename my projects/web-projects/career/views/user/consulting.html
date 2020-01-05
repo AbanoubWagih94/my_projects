@@ -1,0 +1,63 @@
+<div class="load" ng-show="loading"><img src="images/loading.gif" class="center-block"></div>
+<div class="container-fluid">
+    <h3 style="padding: 10px;color:#2b669a">{{pageStatic[lang].title}}</h3>
+    <br>
+    <pre class="alert alert-info" ng-show="!data.length">{{pageStatic[lang].noData}}</pre>
+    <br>
+        <input type="radio" name="filter" ng-click="q={};q.answered = 1">
+        <span ng-show="lang == 'en'">Answered</span><span ng-show="lang == 'ar'">اجيب</span>
+        <input type="radio" name="filter" ng-click="q={};q.answered  = 0">
+        <span ng-show="lang == 'en'">Not Answered</span><span ng-show="lang == 'ar'">لم يجب</span>
+        <input type="radio" name="filter" ng-click="q={}" checked="true">
+        <span ng-show="lang == 'en'">All</span><span ng-show="lang == 'ar'">الكل</span>
+    <div class="search-box-wrapper">
+        <div class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" ng-model="q.question" ng-keyup="setFilter(q.question)" placeholder="Search by question">
+        </div>
+    </div>
+    <div class="alert alert-success fade in" ng-show="success">
+        <a class="close" aria-label="close" ng-click="success = !success">&times;</a>
+        <strong>Success!</strong> Data has been saved!
+    </div>
+
+    <div class="alert alert-danger fade in" ng-show="failed">
+        <a class="close" aria-label="close" ng-click="failed = !failed">&times;</a>
+        <strong>Error!</strong> Data hasn't been saved!
+    </div>
+
+    <div class="alert alert-info fade in" ng-show="operationWait">
+        {{siteStatic[lang].wait}}
+    </div>
+
+    <div class="proj-title " ng-repeat="d in data | limitTo:variance:start | filter:q">
+        <span class="text-left">{{d.question}}</span>
+        <input type="button" class="pull-right btn btn-danger fa" value="&#xf1f8; {{pageStatic[lang].delete}}" ng-click="delete(this.d.id, d)">
+        <input type="button" class="pull-right btn btn-primary fa" value="&#xf044; {{pageStatic[lang].QA}}" ng-click="seeQuestion(d)">
+    </div>
+</div>
+<br>
+<input type="button" class="btn btn-primary fa" value="&#xf067;  {{pageStatic[lang].addQuestion}}" ng-click="hideInfo = false; subData = {}; addMode=true;">
+ <div class="center-block pagination-wrapper">
+    <br><br>
+    <i class="glyphicon glyphicon-menu-right pull-right pointer" ng-click="changeStart('add')"></i>
+    <i class="pagination-pages">{{(start/variance)+1 +"/" + math.ceil(data.length/variance)}}</i>
+    <i class="glyphicon glyphicon-menu-left pull-left pointer" ng-click="changeStart('sub')"></i>
+ </div>
+
+<div class="hidden-info" ng-hide="hideInfo" style="direction: ltr">
+    <div class="hidden-info-form">
+    <button type="button" class="close text-danger" aria-label="Close" ng-click="hideInfo = true;addMode=false"><span aria-hidden="true">&times;</span></button>
+        <div class="form-group">
+            <label >Question:</label>
+            <textarea class="form-control" rows="6" ng-model="subData.question" ng-disabled="!addMode"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="answer">Answer:</label>
+             <br>
+               <audio ng-src="{{'sounds/'+subData.answer}}" controls ng-show="subData.answer"></audio>
+            <br>
+        </div>
+        <br><input type="button" value="&#xf1d9; {{pageStatic[lang].submit}}" class="fa btn btn-info" ng-click="addQuestion()" ng-show="addMode">
+    </div>
+</div>
